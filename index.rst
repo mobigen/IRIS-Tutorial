@@ -1,4 +1,6 @@
 GettingStarted
 ====================
 
-getting started
+.. toctree::
+
+    visualization/index.rst
