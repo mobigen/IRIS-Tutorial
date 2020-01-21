@@ -1,4 +1,4 @@
-GettingStarted
+IRIS-Tutorial
 ====================
 
 .. toctree::
