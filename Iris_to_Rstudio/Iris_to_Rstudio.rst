@@ -14,7 +14,7 @@ IRIS 데이터 검색
 
 데이터 브라우저 > 검색 기능을 통해 R-Studio로 전달할 데이터 테이블을 검색합니다.
 
-.. image:: ./images/data_import_img_01.png
+.. image:: ./images/kr/data_import_r_kr_01.png
     :scale: 50%
     :alt: IRIS검색화면
 
@@ -25,17 +25,17 @@ R 코드 복사
 
 검색 바 오른쪽 [분석코드복사] 아이콘을 클릭합니다.
 
-.. image:: ./images/data_import_img_02.png
+.. image:: ./images/kr/data_import_r_kr_02.png
     :scale: 50%
     :alt: 분석코드복사
 
 [R 코드 복사하기] 항목을 클릭하여 R코드를 클립보드에 복사합니다.
 
-.. image:: ./images/data_import_img_03.png
+.. image:: ./images/kr/data_import_r_kr_03.png
     :scale: 50%
     :alt: R코드복사
 
-.. image:: ./images/data_import_img_04.png
+.. image:: ./images/kr/data_import_r_kr_04.png
     :scale: 50%
     :alt: R코드클립보드복사
 
@@ -46,13 +46,13 @@ R-Studio 이동
 
 대화형분석 > RStudio 를 클릭하여 IRIS에서 제공하는 R 사용 환경으로 이동합니다.
 
-.. image:: ./images/data_import_img_05.png
+.. image:: ./images/kr/data_import_r_kr_05.png
     :scale: 50%
     :alt: RStudio이동
 
 Studio 상단 File > New File > R Script 를 클릭하여 새 스크립트 파일을 생성합니다.
 
-.. image:: ./images/data_import_img_06.png
+.. image:: ./images/kr/data_import_r_kr_06.png
     :scale: 50%
     :alt: R스크립트생성
 
@@ -68,7 +68,7 @@ IRIS 로그인 비밀번호 입력
 
 코드 내 user_passwd 변수의 따옴표('') 사이에 IRIS 로그인 비밀번호를 작성합니다. 
 
-.. image:: ./images/data_import_img_07.png
+.. image:: ./images/kr/data_import_r_kr_07.png
     :scale: 50%
     :alt: 패스워드입력
 
@@ -77,7 +77,7 @@ IRIS 로그인 비밀번호 입력
 
 Ctrl + a 또는 마우스로 전체 블록을 지정 후 Ctrl + Enter 하여 전체 코드를 실행합니다.
 
-.. image:: ./images/data_import_img_08.png
+.. image:: ./images/kr/data_import_r_kr_08.png
     :scale: 50%
     :alt: 코드전체실행
 
@@ -87,7 +87,7 @@ Ctrl + a 또는 마우스로 전체 블록을 지정 후 Ctrl + Enter 하여 전
 
 RStudio Environment 및 Console 창에서 로딩된 테이블 값을 확인할 수 있습니다.
 
-.. image:: ./images/data_import_img_09.png
+.. image:: ./images/kr/data_import_r_kr_09.png
     :scale: 50%
     :alt: 테이블내용확인
 
