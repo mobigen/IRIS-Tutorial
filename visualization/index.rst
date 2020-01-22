@@ -3,7 +3,7 @@
 ====================
 
 .. toctree::
-    
+
     01_overview.rst
     02_show_charts.rst
     03_save_charts.rst
