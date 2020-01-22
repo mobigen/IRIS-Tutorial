@@ -32,8 +32,10 @@ Python 코드 복사
 .. image:: ./images/kr/003.python_code_copy.png
     :alt: python코드복사
 
+해당 테이블을 Jupyter Notebook에서 로딩할 수 있는 코드가 클립보드에 복사되었습니다. 
+
 .. image:: ./images/kr/004.clipboard_copy_msg.png
-    :alt: 코드클립보드복사
+    :alt: 클립보드복사
 
 
 -------------------------
