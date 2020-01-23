@@ -78,4 +78,17 @@
 | 경로와 연결정보를 확인하고 내보내기를 클릭합니다.
 
 .. figure:: ./images/export_HDFS_st_05.png
-        :alt: 폴더 선택
+        :alt: 내보내기
+
+
+.. figure:: ./images/export_HDFS_06.png
+        :alt: 성공
+
+| 
+| HDFS조회- HDFS브라우저로 진입하여 해당 경로로 접근하면 파일을 확인할 수 있습니다. 
+
+.. figure:: ./images/export_HDFS_st_07.png
+        :alt: 파일 확인
+
+.. figure:: ./images/export_HDFS_st_08.png
+        :alt: 파일 확인
