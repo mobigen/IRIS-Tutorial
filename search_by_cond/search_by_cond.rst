@@ -18,6 +18,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "WHERE" 를 이용하여 특
 아래 그림은 미국 야구 타자들의 경기 실적 데이터입니다.
 
 .. image:: ./images/ko/search_by_cond_01.png
+    :scale: 60%
     :alt: 검색화면(BATTING_TABLE)
 
 
@@ -40,6 +41,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "WHERE" 를 이용하여 특
 
 .. image:: ./images/ko/search_by_cond_02.png
     :alt: 출전경기 수가 15회 이상인 선수 데이터 조회
+    :scale: 60%
 
 
 -------------------------------------------------------------------
@@ -70,6 +72,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "WHERE" 를 이용하여 특
 
 .. image:: ./images/ko/search_by_cond_03.png
     :alt: 파이프 문자로 조건 생성 결과
+    :scale: 60%
 
 
 AND, OR, IN 을 이용하여 조건 생성
@@ -90,7 +93,7 @@ AND 조건 생성
 입력한 후 우측 [실행] 버튼을 누르면, 앞서 진행했을 때와 동일한 결과가 표출되는 것을 확인할 수 있습니다.
 
 .. image:: ./images/ko/search_by_cond_04.png
-    :scale: 50%
+    :scale: 60%
     :alt: AND 조건 생성 결과
 
 
@@ -112,6 +115,7 @@ OR 조건 생성
 
 .. image:: ./images/ko/search_by_cond_05.png
     :alt: OR 조건 생성 결과
+    :scale: 60%
 
 
 IN 문법을 이용한 조건 생성
@@ -129,6 +133,7 @@ IN 문법을 이용하여 아래와 같이 명령어를 만들 수 있습니다.
 
 .. image:: ./images/ko/search_by_cond_06.png
     :alt: IN 생성 결과
+    :scale: 60%
 
 
 .. code-block::

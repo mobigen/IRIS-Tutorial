@@ -39,6 +39,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 .. image:: ./images/ko/stats_in_search_01.png
     :alt: 검색화면(WEATHER_TABLE)
+    :scale: 60%
 
 -----------------------------------------------
 기초 통계 산출
@@ -60,6 +61,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 .. image:: ./images/ko/stats_in_search_02.png
     :alt: 문자형 변수 기준 기초 통계 산출
+    :scale: 60%
 
 
 날짜형 변수를 기준으로 산출
@@ -77,6 +79,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 .. image:: ./images/ko/stats_in_search_03.png
     :alt: 날짜형 변수 기준 기초 통계 산출
+    :scale: 60%
 
 날짜형 변수를 처리하는 함수 "date_group"의 용법은 다음과 같습니다.
 
@@ -103,6 +106,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 .. image:: ./images/ko/stats_in_search_04.png
     :alt: 기준 변수가 2개 이상일 때의 기초 통계 산출
+    :scale: 60%
 
 
 -----------------------------------------------------------------------
@@ -113,11 +117,13 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 .. image:: ./images/ko/stats_in_search_05.png
     :alt: 활성화된 [시각화] 탭
+    :scale: 90%
 
 [시각화] 탭을 클릭하면 아래와 같은 화면이 표출됩니다.
 
 .. image:: ./images/ko/stats_in_search_06.png
     :alt: [시각화] 탭 첫 화면
+    :scale: 60%
 
 해당 화면에서 "차트 유형" 과 "컬럼", "값" 변수를 바꿔가며 "stats" Command로 산출된 기초 통계 결과에 관한 다양한 시각화를 진행할 수 있습니다.
 
