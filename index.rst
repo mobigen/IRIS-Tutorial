@@ -4,9 +4,10 @@ IRIS-Tutorial
 .. toctree::
 
     visualization/index.rst
-    pivot/00_Pivot_준비하기(템플릿맞춰 수정 예정).rst
-    pivot/00_Pivot_chart1(작성중 이후 템플릿맞춰 수정예정).rst
-    pivot/00_Pivot_table1(작성중 이후 템플릿맞춰 수정예정).rst
+    pivot/01_Overview.rst
+    pivot/02_Pivot_Data.rst
+    pivot/03_Pivot_table.rst
+    pivot/04_Pivot_Chart.rst
     Iris_to_Jupyter/Iris_to_Jupyter.rst
     Iris_to_Rstudio/Iris_to_Rstudio.rst
     search_Export/search_Export.rst
