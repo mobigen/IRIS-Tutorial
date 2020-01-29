@@ -52,7 +52,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 이 때 명령어는 다음과 같습니다.
 
-.. code-block::
+.. code::
 
     *  | stats count(*), max(AVG_TEMP), min(AVG_TEMP), avg(RAINFALL_PER_DAY),  stdev(RAINFALL_PER_DAY) by LOCATION
 
@@ -71,7 +71,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 예를 들어, 앞서 산출한 통계량을 월별로 산출하려면 명령어는 다음과 같습니다.
 
-.. code-block::
+.. code::
 
     * | stats count(*), max(AVG_TEMP), min(AVG_TEMP), avg(RAINFALL_PER_DAY),  stdev(RAINFALL_PER_DAY) by date_group(DATE, "1m")
 
@@ -83,7 +83,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 날짜형 변수를 처리하는 함수 "date_group"의 용법은 다음과 같습니다.
 
-.. code-block:: 
+.. code:: 
 
     형식: date_group(컬럼명, 단위)
 
@@ -98,7 +98,7 @@ IRIS [검색] 메뉴에서 지원하는 Command 중 "stats" 를 이용하여 데
 
 예를 들어, 앞서 기술한 문자형 변수와 날짜형 변수의 예시를 하나로 합쳐서 보고자 한다면, 명령어는 다음과 같습니다.
 
-.. code-block::
+.. code::
 
     * | stats count(*), max(AVG_TEMP), min(AVG_TEMP), avg(RAINFALL_PER_DAY),  stdev(RAINFALL_PER_DAY) by LOCATION, date_group(DATE, "1m")
 
