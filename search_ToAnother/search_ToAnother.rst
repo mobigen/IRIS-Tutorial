@@ -4,7 +4,7 @@
 
 | 데이터 브라우저 > 검색 메뉴로 진입합니다. 
 
-.. figure:: ./images/enter_00.png
+.. figure:: ./images/ko/enter_00.png
         :alt: IRISMenu
 
 | 
@@ -12,7 +12,7 @@
 
 - 예시: WEATHER 선택
 
-.. figure:: ./images/export_st_00.png
+.. figure:: ./images/ko/export_st_00.png
         :alt: 데이터 모델 선택
 
 
@@ -21,14 +21,14 @@
 
 - 예시: 전체기간 선택, Command : | fields  LOCATION, AVG_TEMP, RAINFALL_CONT_TIME
 
-.. figure:: ./images/export_st_01.png
+.. figure:: ./images/ko/export_st_01.png
         :alt: Command
 
 
 | 
 | 검색 결과가 나온 후 Command 우측의 그래프모양 아이콘을 클릭하면 검색결과를 선택지에 따라 피벗, 시각화, 이상탐지로 가져갈 수 있습니다. 
 
-.. figure:: ./images/another_st_00.png
+.. figure:: ./images/ko/another_st_00.png
         :alt: 이동
 
 | 
@@ -36,11 +36,11 @@
 
 - (각각의 사용방법은 튜토리얼의 피벗분석, 시각화, 이상탐지를 참조 바람)
 
-.. figure:: ./images/another_01.png
+.. figure:: ./images/ko/another_01.png
         :alt: 피벗분석
 
-.. figure:: ./images/another_02.png
+.. figure:: ./images/ko/another_02.png
         :alt: 시각화
 
-.. figure:: ./images/another_03.png
+.. figure:: ./images/ko/another_03.png
         :alt: 이상탐지
