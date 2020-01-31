@@ -4,6 +4,8 @@ IRIS Studio
 .. toctree::
 
     table/table.rst
+    bar/bar.rst
+    bar/barh.rst
     single_value/single_value.rst
     treemap/treemap.rst
     wordcloud/wordcloud.rst
