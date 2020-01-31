@@ -71,6 +71,11 @@ IRIS 로그인 비밀번호 입력
 
 코드 내 user_passwd 변수의 따옴표('') 사이에 IRIS 로그인 비밀번호를 작성합니다. 
 
+.. code::
+
+    user_id = "manual"
+    user_passwd = "계정 비밀번호 입력"
+
 .. image:: ./images/kr/007.enter_password.png
     :scale: 90%
     :alt: 패스워드입력

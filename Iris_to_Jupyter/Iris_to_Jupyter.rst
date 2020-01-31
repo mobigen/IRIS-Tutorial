@@ -71,6 +71,11 @@ IRIS 로그인 비밀번호 입력
 
 코드 내 user_passwd 변수의 따옴표('') 사이에 IRIS 로그인 비밀번호를 작성합니다. 
 
+.. code::
+
+    user_id = "manual"
+    user_passwd = "계정 비밀번호 입력"
+
 .. image:: ./images/kr/007.enter_password.png
     :alt: 패스워드입력
     :scale: 90%
@@ -106,6 +111,10 @@ Python3.6 버전 실행 시
 
 1) Python3.6버전에서 "httplib"를 "http.client"로 변경합니다.
 
+.. code::
+
+    from http.client import HTTPConnection
+
 .. image:: ./images/kr/010.chg_pkg_name.png
     :alt: 패키지이름변경
     :scale: 90%
@@ -113,12 +122,24 @@ Python3.6 버전 실행 시
 
 2) try...exception 문의 "except Exception, e" 를 "except Excetpion as e"로 변경합니다.
 
+.. code::
+
+    try :
+        sid = r["sid"]
+    except Excetpion as e:
+        sys.exit()
+
 .. image:: ./images/kr/011.chg_exception.png
     :alt: 예외문변경
     :scale: 90%
 
 
 3) 하단 print 문의 내용을 괄호로 감싸줍니다.
+
+.. code::
+
+    for item in response['results']:
+        print(str(item))
 
 .. image:: ./images/kr/012.chg_print.png
     :alt: 프린트문변경
