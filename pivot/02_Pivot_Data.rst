@@ -14,6 +14,7 @@
 
 .. image:: ./images/02_pivot_data/02_pivot_data_01.png
     :alt: 피벗구성
+    :scale: 60%
 
 -------------------------
 데이터 불러오기
@@ -26,17 +27,20 @@
 
 .. image:: ./images/02_pivot_data/02_pivot_data_02_1.png
     :alt: 데이터불러오기
+    :scale: 60%
 
 
 분석 대상 데이터를 직접 마우스 클릭을 통해 선택하거나 아래와 같이 데이터 이름을 입력해 데이터를 검색 할 수 있습니다. 
 
 .. image:: ./images/02_pivot_data/02_pivot_data_03.png
     :alt: 피벗구성
+    :scale: 90%
 
 샘플링 필요할 때는 데이터 모델이름 우측의 작은 아이콘을 클릭합니다.
 
 .. image:: ./images/02_pivot_data/02_pivot_data_04.png
     :alt: 피벗구성
+    :scale: 90%
 
 
 검색 기간 설정
@@ -46,12 +50,13 @@
 
 .. image:: ./images/02_pivot_data/02_pivot_data_05.png
     :alt: 피벗구성
+    :scale: 90%
 
 우리는 전체 기간에 해당하는 데이터를 불러오려 하기 때문에 위 화면의 '전체 시간'을 클릭하겠습니다.
 보다 구체적인 기간을 지정하기 위해 아래 '날짜 및 시간 범위'를 활용할 수도 있습니다.
 
 .. image:: ./images/02_pivot_data/02_pivot_data_06.png
-    :scale: 100 %
+    :scale: 90 %
     :alt: 피벗구성
 
 
@@ -62,12 +67,14 @@
 
 .. image:: ./images/02_pivot_data/02_pivot_data_07.png
     :alt: 피벗구성
+    :scale: 90%
 
 
 이와 같이 사용할 피벗 분석 대상 데이터의 정보는 아래와 같이 화면 상단에서 간단히 확인할 수 있습니다.
 
 .. image:: ./images/02_pivot_data/02_pivot_data_08_1.png
     :alt: 피벗구성
+    :scale: 90%
 
 위와 같은 경우 전체기간의 샘플링을 사용 안한 BATTING_TABLE 데이터를 나타냅니다.
 
