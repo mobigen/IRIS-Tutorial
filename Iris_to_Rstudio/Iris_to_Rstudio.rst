@@ -1,20 +1,21 @@
 
-=============================================
-IRIS to RStudio 데이터 추가 매뉴얼
-=============================================
+============================================================
+[검색] 메뉴 결과를 RStudio 데이터로 추가하기
+============================================================
 
 -------------------------
 개요
 -------------------------
-| 본 문서는 IRIS에 적재된 데이터 테이블을 RStudio로 추가하는 기능의 사용 방법을 기술하고 있습니다. 
+| 본 문서는 [검색] 메뉴에서 조회한 데이터 모델을 RStudio로 추가하는 기능의 사용 방법을 기술하고 있습니다. 
 
 -------------------------
 IRIS 데이터 검색
 -------------------------
 
-데이터 브라우저 > 검색 기능을 통해 RStudio로 전달할 데이터 테이블을 검색합니다.
+[데이터 브라우저] > [검색] 기능을 통해 RStudio로 전달할 데이터 테이블을 검색합니다.
 
 .. image:: ./images/kr/001.data_search.png
+    :scale: 90%
     :alt: IRIS검색화면
 
 
@@ -25,17 +26,20 @@ R 코드 복사
 검색 바 오른쪽 [분석코드복사] 아이콘을 클릭합니다.
 
 .. image:: ./images/kr/002.code_copy.png
+    :scale: 90%
     :alt: 분석코드복사
 
 [R 코드 복사하기] 항목을 클릭하여 R코드를 클립보드에 복사합니다.
 
 .. image:: ./images/kr/003.python_code_copy.png
+    :scale: 90%
     :alt: R코드복사
 
 
 해당 테이블을 RStudio에서 로딩할 수 있는 코드가 클립보드에 복사되었습니다. 
 
 .. image:: ./images/kr/004.clipboard_copy_msg.png
+    :scale: 90%
     :alt: R코드클립보드복사
 
 
@@ -46,11 +50,13 @@ RStudio 이동
 대화형분석 > RStudio 를 클릭하여 IRIS에서 제공하는 R 사용 환경으로 이동합니다.
 
 .. image:: ./images/kr/005.to_rstudio.png
+    :scale: 90%
     :alt: RStudio이동
 
 Studio 상단 File > New File > R Script 를 클릭하여 새 스크립트 파일을 생성합니다.
 
 .. image:: ./images/kr/006.rstudio_newfile.png
+    :scale: 90%
     :alt: R스크립트생성
 
 -------------------------
@@ -66,6 +72,7 @@ IRIS 로그인 비밀번호 입력
 코드 내 user_passwd 변수의 따옴표('') 사이에 IRIS 로그인 비밀번호를 작성합니다. 
 
 .. image:: ./images/kr/007.enter_password.png
+    :scale: 90%
     :alt: 패스워드입력
 
 코드 전체 실행
@@ -74,6 +81,7 @@ IRIS 로그인 비밀번호 입력
 Ctrl + a 또는 마우스로 전체 블록을 지정 후 Ctrl + Enter 하여 전체 코드를 실행합니다.
 
 .. image:: ./images/kr/008.run_code.png
+    :scale: 90%
     :alt: 코드전체실행
 
 
@@ -84,4 +92,6 @@ RStudio Environment 및 Console 창에서 로딩된 테이블 값을 확인할 �
 
 .. image:: ./images/kr/009.code_result.png
     :alt: 테이블내용확인
+    :scale: 60%
+
 
