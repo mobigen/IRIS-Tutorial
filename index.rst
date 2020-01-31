@@ -10,6 +10,8 @@ IRIS-Tutorial
     pivot/04_Pivot_Chart.rst
     Iris_to_Jupyter/Iris_to_Jupyter.rst
     Iris_to_Rstudio/Iris_to_Rstudio.rst
+    store_jupyter_to_hdfs/store_jupyter_to_hdfs.rst
+    store_r_to_hdfs/store_r_to_hdfs.rst
     search_Export/search_Export.rst
     search_ToAnother/search_ToAnother.rst
     search_closeup/search_closeup.rst
