@@ -24,6 +24,7 @@
 
 .. figure:: ./images/ko/another_st_00.png
         :alt: 이동
+        :scale: 60%
 
 [이동] 버튼을 누르면 드롭다운 메뉴가 나타나며, 그 항목에서 이동하고자 하는 페이지를 선택하면 해당 페이지로 이동할 수 있습니다.
 
@@ -34,9 +35,12 @@
 
 .. figure:: ./images/ko/another_01.png
         :alt: 피벗분석
+        :scale: 60%
 
 .. figure:: ./images/ko/another_02.png
         :alt: 시각화
+        :scale: 60%
 
 .. figure:: ./images/ko/another_03.png
         :alt: 이상탐지
+        :scale: 60%
