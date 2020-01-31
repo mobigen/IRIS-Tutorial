@@ -15,6 +15,7 @@
 
 .. image:: ./images/03_pivot_table/03_pivot_table_0.png
     :alt: 피벗구성
+    :scale: 90%
 
 
 -------------------------
@@ -28,26 +29,31 @@
 
 .. image:: ./images/03_pivot_table/03_pivot_table_01.png
     :alt: 피벗구성
+    :scale: 90%
 
 위와 같이 '행 선택'에 '리그 ID'를 추가하겠습니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_02.png
     :alt: 피벗구성
+    :scale: 90%
 
 '값 선택'에 '득점의 평균'를 추가 한뒤 우측 하단 '실행' 버튼을 클릭합니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_03.png
     :alt: 피벗구성
+    :scale: 90%
 
 위 피벗 같이 '리그 ID' 별 평균 득점을 확인 할 수 있습니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_04.png
     :alt: 피벗구성
+    :scale: 90%
 
 '값 선택'에 득점 최대값과 안타 평균을 추가해보겠습니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_05.png
     :alt: 피벗구성
+    :scale: 90%
 
 실행시 피벗 테이블 같이 '리그 ID' 별 평균 득점, 최대 득점, 평균 안타를 확인 할 수 있습니다.
 
@@ -60,11 +66,13 @@
 
 .. image:: ./images/03_pivot_table/03_pivot_table_06.png
     :alt: 피벗구성
+    :scale: 90%
 
 위와 같이 연도를 행으로, 리그 ID를 열로 설정한 뒤 득점의 평균값을 보겠습니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_07.png
     :alt: 피벗구성
+    :scale: 60%
 
 실행시 결과는 위와 같이 나타납니다.
 
@@ -78,15 +86,18 @@ popup에서, 필드의 타입에 따라 아래와 같이 선택할 수 있는 �
 
 .. image:: ./images/03_pivot_table/03_pivot_table_08.png
     :alt: 피벗구성
+    :scale: 90%
 
 위와 같이 필터 항목을 클릭해 리그 ID가 AL로 일치하도록 설정합니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_09.png
     :alt: 피벗구성
+    :scale: 60%
 
 
 .. image:: ./images/03_pivot_table/03_pivot_table_10.png
     :alt: 피벗구성
+    :scale: 60%
 
 
 
@@ -97,10 +108,12 @@ popup에서, 필드의 타입에 따라 아래와 같이 선택할 수 있는 �
 
 .. image:: ./images/03_pivot_table/03_pivot_table_11.png
     :alt: 피벗구성
+    :scale: 90%
 
 위와 같이 행선택 기능을 활용해 1시간 별 득점 평균을 확인할 수 있는 피벗 테이블을 생성하겠습니다.
 
 .. image:: ./images/03_pivot_table/03_pivot_table_12.png
     :alt: 피벗구성
+    :scale: 90%
 
 
