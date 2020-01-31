@@ -7,18 +7,8 @@
 개요
 -------------------------------------------------
 
-| 체크박스는 다중선택이 가능합니다.
-
-- TEAMID가 2개이상 선택된 것을 확인할 수 있습니다.
-
-.. figure:: ./images/ko/checkbox_report_st_02_2.png
-
-
-| 라디오 버튼은 단일 선택만 가능한 기능입니다.
-
-- TEAMID가 1개만 선택된 것을 확인할 수 있습니다.
-
-.. figure:: ./images/ko/checkbox_report_st_02_1.png
+| 체크박스는 여러 항목을 선택할 수 있는 콤포넌트입니다.
+| 라디오 버튼은 한 가지 항목만 선택할 수 있는 콤포넌트입니다. 
 
 ------------------------------------------------
 사용방법
@@ -99,6 +89,14 @@
 .. figure:: ./images/ko/checkbox_report_st_06.png
         :alt: 보고서 확인
 
+|
+| 체크박스의 경우
+
 .. figure:: ./images/ko/checkbox_report_st_07.png
         :alt: 보고서 확인
 
+|
+| 라디오버튼의 경우
+
+.. figure:: ./images/ko/checkbox_report_st_08.png
+        :alt: 보고서 확인
