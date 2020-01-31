@@ -4,7 +4,7 @@
 
 | 데이터 브라우저 > 검색 메뉴로 진입합니다. 
 
- .. figure:: ./images/enter_00.png
+ .. figure:: ./images/ko/enter_00.png
       :alt: IRISMenu
 
 | 
@@ -13,7 +13,7 @@
 - 샘플링 조건 없이 Command를 실행하면 743개의 데이터가 도출됩니다.
 - 예시: SYSLOG 데이터 모델
 
-.. figure:: ./images/sampling_st_00.png
+.. figure:: ./images/ko/sampling_st_00.png
             :alt: 샘플링 사용안함
 
 | 
@@ -21,10 +21,10 @@
 
 - 예시: 원본, 1:100 비율
 
-.. figure:: ./images/sampling_st_00_1.png
+.. figure:: ./images/ko/sampling_st_00_1.png
             :alt: 샘플링 아이콘 위치
 
-.. figure:: ./images/sampling_st_01.png
+.. figure:: ./images/ko/sampling_st_01.png
             :alt: 샘플링방식 비율 설정
 
 | 
@@ -32,5 +32,5 @@
 
 - 예시: 원본 743개에서 약 100분의 1에 해당하는 7개가 샘플링되었음
 
-.. figure:: ./images/sampling_st_02.png
+.. figure:: ./images/ko/sampling_st_02.png
             :alt: 샘플링된 데이터 수
