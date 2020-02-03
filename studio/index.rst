@@ -5,7 +5,7 @@ IRIS Studio
 
     table/table.rst
     bar/bar.rst
-    bar/barh.rst
+    barh/barh.rst
     piechart/piechart.rst
     single_value/single_value.rst
     treemap/treemap.rst
