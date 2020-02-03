@@ -24,12 +24,14 @@
 
 .. figure:: ./images/ko/closeup_00.png
         :alt: 데이터 모델 선택
+        :scale: 60%
 
  
 그래프 상에서 추가적으로 탐색하고자 하는 구간을 마우스 드래그&드롭으로 선택합니다.
 
 .. figure:: ./images/ko/closeup_01.png
         :alt: 기간,Command 설정
+        :scale: 60%
 
 선택한 구간을 마우스 오른쪽 버튼으로 클릭하면, 아래 화면과 같이 [이 범위로 검색] 버튼이 표출됩니다.
 
@@ -37,10 +39,12 @@
 
 .. figure:: ./images/ko/closeup_st_02.png
         :alt: 이범위로 검색 버튼
+        :scale: 60%
 
 
 조회된 결과 상단의 "시간" 범위가 드래그한 범위만큼 변경된 것을 확인할 수 있습니다. 
 
 .. figure:: ./images/ko/closeup_st_03.png
         :alt: 타임라인 그래프로 조회 완료
+        :scale: 60%
 

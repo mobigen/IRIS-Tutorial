@@ -6,6 +6,7 @@ IRIS Studio
     table/table.rst
     bar/bar.rst
     bar/barh.rst
+    piechart/piechart.rst
     single_value/single_value.rst
     treemap/treemap.rst
     wordcloud/wordcloud.rst

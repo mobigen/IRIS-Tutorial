@@ -1,17 +1,17 @@
 ================================================================
-Jupyter Notebook 에서의 결과를 아이리스 HDFS에 저장하기
+Jupyter Notebook 에서의 결과를 HDFS에 저장하기
 ================================================================
 
 -------------------------
 개요
 -------------------------
-| 본 문서는 Jupyter Notbook으로 수행된 분석 결과 데이터와 모델 객체를 아이리스 HDFS에 저장하는 방법을 기술하고 있습니다. 
+본 문서는 Jupyter Notbook으로 수행된 분석 결과 데이터와 모델 객체를 HDFS에 저장하는 방법을 기술하고 있습니다. 
 
 ----------------------------------------------
 파이썬 hdfs 패키지 설치 및 실행
 ----------------------------------------------
 
-아이리스에서 제공하는 Jupyter Notebook에서 분석한 결과 생성된 data frame은 파이썬의 hdfs 패키지를 이용하여 HDFS서버에 적재할 수 있습니다. 
+IRIS에서 제공하는 Jupyter Notebook에서 분석한 결과 생성된 data frame은 파이썬의 hdfs 패키지를 이용하여 HDFS서버에 적재할 수 있습니다. 
 
 hdfs 패키지는 파이썬과 Hadoop 분산 파일 시스템을 연결하여 파일 시스템 관리 기능, 개별 파일을 읽고 쓰는 등의 기능을 제공합니다.
 
@@ -22,6 +22,7 @@ Jupyer Noteobok에서 **! + "command"** 실행 시 리눅스 쉘 커맨드를 �
 
 .. image:: ./images/kr/001.install_hdfs.png
     :alt: hdfs패키지설치
+    :scale: 60%
 
 ----------------------------------------------
 파이썬 패키지 import
@@ -43,41 +44,46 @@ Jupyer Noteobok에서 **! + "command"** 실행 시 리눅스 쉘 커맨드를 �
 
 .. image:: ./images/kr/002.pkg_loading.png
     :alt: 패키지로딩
+    :scale: 90%
 
 ----------------------------------------------
 data frame 생성 및 HDFS 저장
 ----------------------------------------------
 
-분석 결과를 data frame 형태로 생성, Client 모듈을 호출하여 아이리스 HDFS에 연결합니다.
+분석 결과를 data frame 형태로 생성, Client 모듈을 호출하여 IRIS HDFS에 연결합니다.
 
 .. image:: ./images/kr/003.call_client.png
     :alt: hdfs연결
+    :scale: 60%
     
-해당 코드 내에 **<아이리스 HDFS 디렉토리/파일명>** 을 입력합니다.
+해당 코드 내에 **<IRIS HDFS 디렉토리/파일명>** 을 입력합니다.
 
-**with client_hdfs.write("아이리스의 HDFS위치+저장 파일명.csv") as writer:**
+**with client_hdfs.write("IRIS의 HDFS위치+저장 파일명.csv") as writer:**
     **데이터프레임 변수명.to_csv(writer)**
 
 .. image:: ./images/kr/004.df_in_hdfs.png
     :alt: 데이터프레임hdfs저장
+    :scale: 60%
 
 
 ----------------------------------------------
-플롯 이미지 생성 및 HDFS 저장
+Plot 이미지 생성 및 HDFS 저장
 ----------------------------------------------
 
 파이썬 matplotlib 패키지를 이용하여 data frame으로부터 plot을 생성합니다.
 
-파이썬 io 모듈을 이용하여 이미지 형식의 파일을 바이트 형식으로 변환, HDFS에 저장할 수 있습니다.
+파이썬 io 모듈을 이용하여 이미지 형식의 파일을 byte 형식으로 변환, HDFS에 저장할 수 있습니다.
 
 .. image:: ./images/kr/005.plt_in_hdfs.png
     :alt: 플롯hdfs저장
+    :scale: 60%
 
 ----------------------------------------------
-아이리스 HDFS 브라우저 에서 확인
+[HDFS 브라우저] 에서 확인
 ----------------------------------------------
 
-IRIS > HDFS 조회 > HDFS 브라우저 에서 해당 파일이 적재된 것을 확인할 수 있습니다.
+[HDFS 조회] > [HDFS 브라우저]에서 해당 파일이 적재된 것을 확인할 수 있습니다.
 
 .. image:: ./images/kr/006.chk_in_hdfs.png
     :alt: hdfs브라우저확인
+    :scale: 90%
