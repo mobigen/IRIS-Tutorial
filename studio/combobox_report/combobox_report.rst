@@ -49,7 +49,7 @@
 | 
 | 속성 탭에서는 데이터 컬럼 중 화면에 보여질 필드와 값으로 사용할 필드를 선택합니다.
 
-- 예시: 화면에 보여질 필드: TEAM_ID, 값으로 사용할 필드: TEAM_ID
+- 예시: 화면에 보여질 필드: TEAMID, 값으로 사용할 필드: TEAMID
 
 .. figure:: ./images/ko/combobox_report_st_02.png
         :alt: 콤보박스설정
