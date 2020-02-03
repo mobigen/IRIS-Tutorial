@@ -4,6 +4,7 @@ IRIS Studio
 .. toctree::
 
     table/table.rst
+    piechart/piechart.rst
     single_value/single_value.rst
     treemap/treemap.rst
     wordcloud/wordcloud.rst
