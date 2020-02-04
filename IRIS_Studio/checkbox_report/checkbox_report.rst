@@ -19,13 +19,13 @@
 
 .. figure:: ./images/ko/enter_00.png
         :alt: 메뉴선택
-
+        :scale: 90%
 | 
 | 우측 상단의 새 보고서 기능을 선택합니다.
 
 .. figure:: ./images/ko/Newreport_st_00.png
         :alt: 새 보고서
-
+        :scale: 60%
 
 | 
 | 상단의 막대그래프 모양의 아이콘을 클릭하고 마우스로 원하는 범위를 드래그한 다음, 데이터 모델과 시간을 선택합니다.
@@ -36,7 +36,7 @@
 
 .. figure:: ./images/ko/checkbox_report_st_00.png
         :alt: 데이터영역선택
-
+        :scale: 60%
 
 | 
 | 상단의 체크박스/라디오버튼 아이콘을 선택한 다음 마우스로 원하는 범위를 드래그하고 우측의 데이터 탭에서 불러온 테이블과 동일한 데이터모델과 시간을 설정합니다.
@@ -47,7 +47,7 @@
 
 .. figure:: ./images/ko/checkbox_report_st_01.png
         :alt: 체크박스설정
-
+        :scale: 60%
 | 
 | 속성 탭에서는 데이터 컬럼 중 화면에 보여질 필드와 값으로 사용할 필드를 선택하고 저장합니다.
 
@@ -56,13 +56,13 @@
 
 .. figure:: ./images/ko/checkbox_report_st_02.png
         :alt: 체크박스설정
-
+        :scale: 60%
 | 
 | 체크박스 대신 라디오 버튼을 선택한 경우에도 위와 동일하게 설정하면 됩니다.
 
 .. figure:: ./images/ko/checkbox_report_st_02_3.png
         :alt: 라디오버튼 설정
-
+        :scale: 60%
 | 
 | 항목 탭에서 맨 처음 보여질 값을 디폴트로 설정한 다음 저장합니다.
 
@@ -70,7 +70,7 @@
 
 .. figure:: ./images/ko/checkbox_report_st_03.png
         :alt: 체크박스설정
-
+        :scale: 60%
 | 
 | 테이블 객체를 선택한 상태에서 우측의 검색어 란에 설정한 조건에 맞게  * | where 값으로 사용될 필드 in "${체크박스의 변수명}"  이라고 입력합니다.
 | 스크롤을 내려 하단의 트리거 설정을 클릭하고, 좌측 화면에서 체크박스를 선택하고 실행, 저장합니다.
@@ -79,24 +79,26 @@
 
 .. figure:: ./images/ko/checkbox_report_st_04.png
         :alt: 체크박스설정
-
+        :scale: 60%
 |
 | 저장된 보고서는 데이터 브라우저 > 관리 > 보고서로 진입, 보고서 목록에서 확인할 수 있습니다.
 
 .. figure:: ./images/ko/checkbox_report_st_05.png
         :alt: 보고서 확인
+        :scale: 60%
 
 .. figure:: ./images/ko/checkbox_report_st_06.png
         :alt: 보고서 확인
-
+        :scale: 60%
 |
 | 체크박스의 경우
 
 .. figure:: ./images/ko/checkbox_report_st_07.png
         :alt: 보고서 확인
-
+        :scale: 60%
 |
 | 라디오버튼의 경우
 
 .. figure:: ./images/ko/checkbox_report_st_08.png
         :alt: 보고서 확인
+        :scale: 60%

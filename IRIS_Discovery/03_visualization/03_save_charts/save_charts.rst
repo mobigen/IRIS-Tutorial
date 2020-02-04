@@ -6,7 +6,11 @@
 | 저장된 이미지는 사용자의 다운로드 폴더에 chart.png, chart-01.png, chart-02.png 이름 순으로 저장됩니다. 
 
 .. image:: ./images/ko/save_charts_00.png
+    :scale: 60%
+    :alt: 시각화저장
 
 **저장된 차트 이미지 원본**
 
 .. image:: ./images/ko/save_charts_01.png
+    :scale: 90%
+    :alt: 시각화원본
