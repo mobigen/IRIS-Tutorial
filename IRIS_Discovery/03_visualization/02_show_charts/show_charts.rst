@@ -6,7 +6,6 @@
 | 시계열, 분포, 관계형, 이상치, 지도형과 같은 시각화 분석 유형을 선택할 수 있습니다.
 
 .. image:: images/ko/show_charts_00.png
-    :scale: 90%
     :alt: 시각화분석방법
 
 |
@@ -21,7 +20,6 @@
 | 시간의 흐름(x축)에 따라 y축의 시계열 변화를 보고자 할 때 사용합니다.
 
 .. image:: images/ko/show_charts_01.png
-    :scale: 60%
     :alt: 꺾은선단일
 
 |
@@ -29,19 +27,16 @@
 **x축 옵션**
 
 .. image:: images/ko/show_charts_02.png
-    :scale: 90%
     :alt: x축옵션
 
 **y축 옵션**
 
 .. image:: images/ko/show_charts_03.png
-    :scale: 60%
     :alt: y축옵션
 
 **차트 옵션**
 
 .. image:: images/ko/show_charts_04.png
-    :scale: 90%
     :alt: 차트옵션
 
 | x축과 y축에 설정한 변수를 각각 클릭하면 축 옵션을 이용가능합니다. 집계 시간단위(1시간, 1일, 1개월, 1년 등)나 집계 방식(합계, 평균, 최대, 최소 등)을 변경할 수 있습니다. 차트 옵션을 이용하면 결측값 표시여부, 축 제목, 범례 위치, 범례 표시 여부 등 다양한 시각화 옵션 조정이 가능합니다.
@@ -55,11 +50,9 @@
 | 축의 단위가 같은 시계열을 그룹별로 구분하여 그래프를 그릴 수 있습니다. 일부 그룹의 필터링을 하기위해서 차트 왼쪽에 있는 필터를 사용할 수 있습니다.
 
 .. image:: images/ko/show_charts_05_0.png
-    :scale: 60%
     :alt: 꺾은선단일그룹
 
 .. image:: images/ko/show_charts_05_1.png
-    :scale: 60%
     :alt: 꺾은선단일그룹결과
 
 |
@@ -67,7 +60,6 @@
 **필터링**
 
 .. image:: images/ko/show_charts_06.png
-    :scale: 90%
     :alt: 필터링
 
 | 필터에 관한 자세한 사항은 매뉴얼의 핉터링 부분을 참조하시길 바랍니다.
@@ -83,7 +75,6 @@
 **축의 scale이 동일한 경우**
 
 .. image:: images/ko/show_charts_07.png
-    :scale: 60%
     :alt: 축스케일 동일
 
 |
@@ -91,7 +82,6 @@
 **축의 scale이 다른 경우**
 
 .. image:: images/ko/show_charts_08.png
-    :scale: 60%
     :alt: 축스케일 비동일
 
 | 주의) 비교하고자 하는 변수들의 단위가 다르거나 특정 변수의 scale이 매우 큰 경우에는 단일 차트를 시용하기보다는 다중 차트를 이용하는것을 권장합니다. (예:전력량 0~1000과 온도 -10~30)
@@ -103,7 +93,6 @@
 | 다중 시계열 그래프를 그리기 위해 y축 변수를 추가하고자 할때는 + 버튼을 눌러 컬럼을 추가합니다.
 
 .. image:: images/ko/show_charts_09.png
-    :scale: 60%
     :alt: 꺾은선 다중
 
 |
@@ -114,7 +103,6 @@
 | x축, y축으로 이루어진 직교좌표 위에 값을 점으로 나타내어 두 개 변수 간의 관계를 나타내는 방법입니다. 두 변수 간의 관계를 통해 선형 이나 비선형의 형태와 같은 모델을 확인해봄으로써 그 방향성과 강도를 조사할 수 있습니다.
 
 .. image:: images/ko/show_charts_10.png
-    :scale: 60%
     :alt: 산점도
 
 |
@@ -126,7 +114,6 @@
 | 재생, 일시정지, 다시 재생, 중단의 옵션을 통해 데이터의 움직임을 조정할 수 있습니다.
 
 .. image:: images/ko/show_charts_11.png
-    :scale: 60%
     :alt: 모션
 
 |
@@ -144,7 +131,6 @@
 **기본형**
 
 .. image:: images/ko/show_charts_12.png
-    :scale: 60%
     :alt: 히스토그램기본
 
 |
@@ -152,7 +138,6 @@
 **기본형 - 구간 간격 조정**
 
 .. image:: images/ko/show_charts_13.png
-    :scale: 60%
     :alt: 히스토그램구간
 
 |
@@ -160,7 +145,6 @@
 **x축 옵션**
 
 .. image:: images/ko/show_charts_14.png
-    :scale: 90%
     :alt: 히스토그램x축
 
 | x축에 설정한 변수를 클릭하면 축 옵션을 이용가능합니다. 특히 범위 만들기를 '예'로 변경하여 구간 간격(bin size; range size)를 조정 할 수 있습니다.
@@ -173,7 +157,6 @@
 | 연속형 변수를 일정 구간을 나누어 그 빈도를 그래프로 나타낸 것입니다. 그룹에 변수를 매핑하여 그룹간 분포를 비교할 수 있습니다.
 
 .. image:: images/ko/show_charts_15.png
-    :scale: 60%
     :alt: 히스토그램그룹
 
 |
@@ -184,7 +167,6 @@
 | 범주형 변수의 빈도를 막대 그래프로 나타낸 것입니다. 히스토그램보다 심화된 작업을 할때 주로 사용합니다.
 
 .. image:: images/ko/show_charts_16_0.png
-    :scale: 60%
     :alt: 막대형기본
 
 |
@@ -195,7 +177,6 @@
 | 범주형 변수의 빈도를 막대 그래프로 나타낸 것입니다. y축(이벤트 개수)에 원하는 변수를 넣어서 집계(합계, 평균 등)된 막대그래프를 표현할 수 있습니다.
 
 .. image:: images/ko/show_charts_16_1.png
-    :scale: 60%
     :alt: 막대형집계
 
 | x축과 y축에 설정한 변수를 각각 클릭하면 축 옵션을 이용가능합니다. x축의 순서(오름차순/내림차순)나 y축의 집계 방식(합계, 평균, 최대, 최소 등)을 변경할 수 있습니다. 차트 옵션을 이용하면 결측값 표시여부, 축 제목, 범례 위치, 범례 표시 여부 등 다양한 시각화 옵션 조정이 가능합니다.
@@ -213,7 +194,6 @@
 **스택형**
 
 .. image:: images/ko/show_charts_17.png
-    :scale: 60%
     :alt: 막대형 - 스택형
 
 |
@@ -221,7 +201,6 @@
 **풀스택형**
 
 .. image:: images/ko/show_charts_18.png
-    :scale: 60%
     :alt: 막대형 - 풀스택형
 
 |
@@ -229,7 +208,6 @@
 **차트 옵션**
 
 .. image:: images/ko/show_charts_19.png
-    :scale: 90%
     :alt: 차트옵션
 
 | 차트 상단의 차트 옵션을 이용하면 스택형/풀스택형의 모드 유형, 데이터 값의 표현 여부 등을 조정 할 수 있습니다.
@@ -244,7 +222,6 @@
   기본형은 그룹의 단순 빈도를 나타낼때 사용할 수 있습니다.
 
 .. image:: images/ko/show_charts_20.png
-    :scale: 60%
     :alt: 원형기본
 
 |
@@ -252,7 +229,6 @@
 **차트 옵션**
 
 .. image:: images/ko/show_charts_21.png
-    :scale: 90%
     :alt: 차트시각화옵션
 
 차트 옵션을 통해 최소 조각의 크기를 설정하여 그보다 작은 크기의 조각들을 그외(other) 조각으로 병합할 수 있습니다.
@@ -265,7 +241,6 @@
 | 원형 그래프는 섹터로 구분된 원 그래프이며 각 파이 섹터는 일부 관련 정보의 크기를 표시합니다. 집계형은 변수의 집계값(합계, 평균 등)의 값을 파이 조각의 크기에 반영합니다.
 
 .. image:: images/ko/show_charts_22.png
-    :scale: 60%
     :alt: 원형집계
 
 |
@@ -280,7 +255,6 @@ Sankey chart
 | Sankey chart는 각 변수간의 데이터의 흐름을 나타내는 그래프로 굵기의 정도로 흐름의 양을 표현합니다.
 
 .. image:: images/ko/show_charts_23.png
-    :scale: 60%
     :alt: 샌키차트
 
 |
@@ -293,7 +267,6 @@ Sankey chart
 **기본형**
 
 .. image:: images/ko/show_charts_24.png
-    :scale: 60%
     :alt: 히트맵
 
 |
@@ -301,7 +274,6 @@ Sankey chart
 **색상 변경 및 값 표시**
 
 .. image:: images/ko/show_charts_25.png
-    :scale: 60%
     :alt: 히트맵옵션
 
 |
@@ -309,7 +281,6 @@ Sankey chart
 **차트 옵션**
 
 .. image:: images/ko/show_charts_26.png
-    :scale: 90%
     :alt: 히트맵시각화옵션
 
 | 차트 옵션에서는 데이터의 값을 보여주거나, 배경 색상을 변경 할 수 있습니다. 배경색상은 hex color code를 따릅니다.
@@ -328,7 +299,6 @@ Sankey chart
 | 히스토그램과 시계열 분포에서는 실 데이터의 분포를 보여주고, 기술통계량과 이상치 탐지를 통해 결측값과 분포에서 크게 벗어난 이상치들을 찾아냅니다.
 
 .. image:: images/ko/show_charts_27.png
-    :scale: 60%
     :alt: 이상치
 
 |

@@ -9,5 +9,4 @@
   다양한 차트 설정 및 시각화 옵션을 제공합니다.
 
 .. image:: ./images/ko/overview.png
-    :scale: 60%
     :alt: 시각화화면개요

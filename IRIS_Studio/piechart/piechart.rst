@@ -18,7 +18,6 @@
 
 .. image:: ./images/ko/001.data_view.png
     :alt: data_view
-    :scale: 90%
 
 -------------------------------------------------------------------
 원형 차트 생성
@@ -33,7 +32,6 @@
 
 .. image:: ./images/ko/002.create_pie.png
     :alt: 원형차트생성
-    :scale: 60%
 
 데이터 설정
 =================================================================
@@ -42,7 +40,6 @@
 
 .. image:: ./images/ko/003.model_loading.png
     :alt: 데이터모델선택
-    :scale: 60%
 
 원형차트로 생성하기 적합한 command를 입력한 후 실행합니다.
 
@@ -113,7 +110,6 @@
 
 .. image:: ./images/ko/010.vis_result.png
     :alt: 원형 시각화 결과 확인
-    :scale: 60%
 
 우측 상단 바의 [보기]를 클릭하여 작성 내용을 미리보기 할 수 있으며, [저장]을 클릭하여 저장할 수 있습니다.
 
@@ -130,7 +126,6 @@
     (아래 그림 참조)
 
 .. image:: ./images/ko/011.view_error.png
-    :scale: 90%
     :alt: 보기안보임
 
 .. image:: ./images/ko/012.autoplay_chk.png
@@ -140,6 +135,5 @@
 정상적인 결과화면은 다음과 같습니다.
 
 .. image:: ./images/ko/013.good_result.png
-    :scale: 90%
     :alt: 자동실행 설정
 

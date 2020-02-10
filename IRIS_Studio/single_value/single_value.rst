@@ -22,7 +22,6 @@
 
 .. image:: ./images/ko/single_value_01.png
     :alt: 미국 야구 타자들의 실적 데이터
-    :scale: 60%
 
 
 -------------------------------------------------------------------
@@ -37,7 +36,6 @@
 
 .. image:: ./images/ko/single_value_02.png
     :alt: 단일값_차트영역생성
-    :scale: 60%
 
 좌측 상단의 [차트] 버튼을 클릭한 후, 마우스 드래그&드롭하여 단일값을 추가하고자 하는 영역에 원하는 크기의 차트 영역을 생성합니다.
 
@@ -47,7 +45,6 @@
 
 .. image:: ./images/ko/single_value_03.png
     :alt: 단일값_데이터설정
-    :scale: 60%
 
 
 [단일값] 컴포넌트로 표시할 데이터는 결과값이 1개여야 합니다.
@@ -65,18 +62,15 @@
 
 .. image:: ./images/ko/single_value_04.png
     :alt: 단일값_시각화 옵션 설정
-    :scale: 60%
 
 데이터 설정이 끝나면 우측 "시각화" 탭으로 이동합니다.
 
 "시각화 유형"에서 "단일값"을 선택한 후 하단의 "일반" 옆의 "시각화 옵션"을 클릭하십시오.
 
 .. |opt1| image:: ./images/ko/single_value_05.png
-    :scale: 90%
     :alt: 단일값 시각화 옵션 (1)
 
 .. |opt2| image:: ./images/ko/single_value_06.png
-    :scale: 90%
     :alt: 단일값 시각화 옵션 (2)
 
 .. list-table::
@@ -101,14 +95,12 @@
 
 .. image:: ./images/ko/single_value_07.png
     :alt: 단일값 시각화 결과 확인
-    :scale: 60%
 
 
 제대로 적용됐는지 확인하고자 한다면, 우측 상단의 [보기] 버튼 (주황색 상자로 표시)을 눌러 작성 결과를 다시 한 번 확인합니다.
 
 .. image:: ./images/ko/single_value_08.png
     :alt: 단일값 시각화 결과 [보기]에서 확인
-    :scale: 60%
 
 결과가 정상적으로 표출될 경우, 작성 화면에서 [저장] 버튼을 눌러 결과를 저장합니다.
 
@@ -127,7 +119,6 @@
     (아래 그림 참조)
 
 .. image:: ./images/ko/autoplay.png
-    :scale: 90%
     :alt: 자동실행 설정
 
 

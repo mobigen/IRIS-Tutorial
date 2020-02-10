@@ -13,7 +13,6 @@
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_01.png
     :alt: 차트기능구성
-    :scale: 90%
 
 
 필터
@@ -56,13 +55,11 @@ Y축
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_02.png
     :alt: 세로막대형1
-    :scale: 90%
 
 우축 상단의 세로막대형 아이콘을 클릭해 리그별 득점 평균에 대한 비교를 세로 막대 차트로 나타냈습니다.
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_03.png
     :alt: 세로막대형2
-    :scale: 60%
 
 
 막대 차트 - 가로막대형
@@ -74,14 +71,12 @@ Y축
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_04.png
     :alt: 가로막대형1
-    :scale: 60%
 
 
 우축 상단의 막대형 아이콘을 클릭해 리그별 득점 평균에 대한 비교를 가로 막대 차트로 나타냈습니다.
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_05.png
     :alt: 가로막대형2
-    :scale: 60%
 
 -------------------------
 구성에 대한 비교
@@ -100,14 +95,12 @@ AL리그 팀 중 팀별 득점 합계 피벗 테이블을 아래와 같이 형�
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_06.png
     :alt: 원형1
-    :scale: 60%
 
 
 우축 상단의 원형 차트 아이콘을 클릭해 팀별 득점 합계에 대한 비율을 원형 차트로 나타냈습니다.
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_07.png
     :alt: 원형2
-    :scale: 60%
 
 -------------------------
 시계열 데이터의 평가
@@ -124,12 +117,10 @@ AL리그 팀 중 팀별 득점 합계 피벗 테이블을 아래와 같이 형�
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_08.png
     :alt: 꺾은선1
-    :scale: 60%
 
 
 .. image:: ./images/04_pivot_chart/04_pivot_chart_09.png
     :alt: 꺾은선2
-    :scale: 60%
 
 우축 상단의 꺾은선 차트 아이콘을 클릭해 2000년 이후 리그 별 평균 득점 추세를 한눈에 확인할 수 있습니다. 
 
