@@ -16,7 +16,6 @@ IRIS에서 제공하는 RStudio에서 분석한 결과 생성된 data frame은 R
 
 .. image:: ./images/kr/001.analyze_in_r.png
     :alt: RStudio분석화면
-    :scale: 60%
 
 rhdfs 패키지는 R 과 Hadoop 분산 파일 시스템을 연결하여 파일 시스템 관리 기능, 개별 파일을 읽고 쓰는 등의 기능을 제공합니다.
 
@@ -24,7 +23,6 @@ rhdfs 패키지는 R 과 Hadoop 분산 파일 시스템을 연결하여 파일 �
 
 .. image:: ./images/kr/002.rhdfs_load.png
     :alt: rhdfs라이브러리로드
-    :scale: 90%
 
 
 ----------------------------------------------
@@ -39,13 +37,11 @@ hdfs.put 기능을 통해 로컬 파일을 HDFS의 위치에 복사합니다.
 
 .. image:: ./images/kr/003.rhdfs_put.png
     :alt: hdfs.put설명
-    :scale: 90%
 
 정상적으로 수행되었을 시 Console 창에서 TRUE 임을 확인할 수 있습니다.
 
 .. image:: ./images/kr/004.chk_result.png
     :alt: 콘솔결과확인
-    :scale: 90%
 
 
 ----------------------------------------------
@@ -56,4 +52,3 @@ hdfs.put 기능을 통해 로컬 파일을 HDFS의 위치에 복사합니다.
 
 .. image:: ./images/kr/005.hdfs_browser.png
     :alt: hdfs브라우저확인
-    :scale: 60%

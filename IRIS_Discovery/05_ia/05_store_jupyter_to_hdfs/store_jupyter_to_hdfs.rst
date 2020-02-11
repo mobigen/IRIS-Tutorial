@@ -22,7 +22,6 @@ Jupyer Noteobok에서 **! + "command"** 실행 시 리눅스 쉘 커맨드를 �
 
 .. image:: ./images/kr/001.install_hdfs.png
     :alt: hdfs패키지설치
-    :scale: 60%
 
 ----------------------------------------------
 파이썬 패키지 import
@@ -44,7 +43,6 @@ Jupyer Noteobok에서 **! + "command"** 실행 시 리눅스 쉘 커맨드를 �
 
 .. image:: ./images/kr/002.pkg_loading.png
     :alt: 패키지로딩
-    :scale: 90%
 
 ----------------------------------------------
 data frame 생성 및 HDFS 저장
@@ -63,7 +61,6 @@ data frame 생성 및 HDFS 저장
 
 .. image:: ./images/kr/004.df_in_hdfs.png
     :alt: 데이터프레임hdfs저장
-    :scale: 60%
 
 
 ----------------------------------------------
@@ -76,7 +73,6 @@ Plot 이미지 생성 및 HDFS 저장
 
 .. image:: ./images/kr/005.plt_in_hdfs.png
     :alt: 플롯hdfs저장
-    :scale: 60%
 
 ----------------------------------------------
 [HDFS 브라우저] 에서 확인
@@ -86,4 +82,3 @@ Plot 이미지 생성 및 HDFS 저장
 
 .. image:: ./images/kr/006.chk_in_hdfs.png
     :alt: hdfs브라우저확인
-    :scale: 90%
