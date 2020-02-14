@@ -15,7 +15,6 @@ IRIS 데이터 검색
 [데이터 브라우저] > [검색] 기능을 통해 RStudio로 전달할 데이터 테이블을 검색합니다.
 
 .. image:: ./images/kr/001.data_search.png
-    :scale: 90%
     :alt: IRIS검색화면
 
 
