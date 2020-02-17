@@ -1,4 +1,4 @@
-IRIS-Tutorial
+Tutorial
 ====================
 
 .. toctree::
