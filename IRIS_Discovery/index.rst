@@ -1,4 +1,4 @@
-IRIS Discovery
+IRIS Analyzer
 ====================
 
 .. toctree::
