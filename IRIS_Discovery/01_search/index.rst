@@ -1,7 +1,10 @@
 검색
 =============
 
+IRIS의 기본 기능인 검색에 대한 활용법을 설명합니다. 
+
 .. toctree::
+    :hidden:
 
     01_search_by_cond/search_by_cond.rst
     02_stats_in_search/stats_in_search.rst
