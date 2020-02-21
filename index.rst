@@ -4,9 +4,8 @@ Tutorial
 
 .. toctree::
     :hidden:
-    :titlesonly:
 
-    IRIS_Discovery/index.rst
+    IRIS_Analyzer/index.rst
     IRIS_Studio/index.rst
 
 
