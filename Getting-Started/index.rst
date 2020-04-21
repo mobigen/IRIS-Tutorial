@@ -5,7 +5,6 @@ Getting Started
    :hidden:
 
    01-intro/index.rst
-   02-BLOG/index.rst
 
 
 본 튜토리얼 문서에서는 IRIS 빅데이터 솔루션(이하 IRIS)를 처음 사용하는 사용자가 IRIS SaaS 기본 스토리지 MinIO에 데이터를 업로드 하는 방법을 설명합니다.
