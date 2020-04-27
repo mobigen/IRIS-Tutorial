@@ -6,12 +6,13 @@ IRIS SaaS 의 기본 스토리지로 제공되는 MINIO(`minio 홈페이지 <htt
 
 현재 MINIO는 272.5M + 이상의 docker pull 및 18K + git commit을 통해 전 세계적으로 배포되고 있습니다.
 
-MINIO 는 Amazon S3 클라우드 서비스와 호환됩니다. 따라서 기술적으로 S3 호환 API를 사용하여 MinIO 스토리지에 액세스 할 수 있습니다. 
+MINIO 는 Amazon S3 클라우드 서비스와 호환됩니다. 
+따라서 기술적으로 S3 호환 API를 사용하여 MinIO 스토리지에 액세스 할 수 있습니다. 
 R을 통해 Amazon Web Services (AWS)에 액세스하기위한 패키지로는 cloudR 팀이 개발한 aws.s3 이라는 패키지가 있습니다.
 
 하지만 MINIO 에 access 하는데는 사용상의 어려움이 있어 **minio.s3** 라는 패키지를 사용합니다.
 
-현재(2020.04월) minio.s3 는 github 에서 설치해야 합니다.
+현재(2020.04월) minio.s3 는 CRAN 이 아닌 github 에서 설치해야 합니다.
 
 |
 
@@ -26,7 +27,7 @@ IRIS SaaS 의 **대화형 분석** 에 embedding 되어 있는 분석 툴인 RSt
 -------------------
 
 먼저 aws.s3 패키지를 CRAN 에서 설치하고, 
-min.s3 를 install_github 로 설치합니다.
+minio.s3 를 install_github 로 설치합니다.
 
 .. code::
  
@@ -179,6 +180,7 @@ MINIO 에 저장된 CSV 파일을 가져와서 R 의 file path 에 다운로드�
 
 .. code::
 
+  # 예제 1
   > my_npk <- s3read_using(FUN=read.csv, header=T, object='npk_data.csv', bucket='demo', opts=list( use_https=F))
   > str(my_npk)
   'data.frame':	24 obs. of  5 variables:
@@ -188,6 +190,7 @@ MINIO 에 저장된 CSV 파일을 가져와서 R 의 file path 에 다운로드�
   $ K    : int  1 0 0 1 0 1 1 0 0 1 ...
   $ yield: num  49.5 62.8 46.8 57 59.8 58.5 55.5 56 62.8 55.8 ...
 
+  # 예제 2
   # read.csv 함수의 argument 를 모두 추가할 수 있습니다.
   > my_npk <- s3read_using(FUN=read.csv, header=T, colClasses=c('block' = 'character'), object='npk_data.csv', bucket='demo', opts=list( use_https=F))
   > str(my_npk)
