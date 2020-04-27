@@ -3,11 +3,15 @@ R 과 MINIO - (1) : CSV 파일 저장하기 / 가져오기
 
 IRIS SaaS 의 기본 스토리지로 제공되는 MINIO(`minio 홈페이지 <https://min.io>`__) 는 
 100 % 오픈 소스(Apache V2 라이센스)의 분산 객체 스토리지 시스템입니다.
+
 현재 MINIO는 272.5M + 이상의 docker pull 및 18K + git commit을 통해 전 세계적으로 배포되고 있습니다.
 
 MINIO 는 Amazon S3 클라우드 서비스와 호환됩니다. 따라서 기술적으로 S3 호환 API를 사용하여 MinIO 스토리지에 액세스 할 수 있습니다. 
-R을 통해 Amazon Web Services (AWS)에 액세스하기위한 패키지로 
-R은 cloudR 팀 이 개발한 aws.s3 이라는 패키지가 있습니다.
+R을 통해 Amazon Web Services (AWS)에 액세스하기위한 패키지로는 cloudR 팀이 개발한 aws.s3 이라는 패키지가 있습니다.
+
+하지만 MINIO 에 access 하는데는 사용상의 어려움이 있어 **minio.s3** 라는 패키지를 사용합니다.
+
+현재(2020.04월) minio.s3 는 github 에서 설치해야 합니다.
 
 |
 
