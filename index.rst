@@ -5,6 +5,7 @@ Tutorial
 .. toctree::
     :hidden:
 
+    Getting-Started/index.rst
     IRIS_Analyzer/index.rst
     IRIS_Studio/index.rst
 
@@ -52,6 +53,11 @@ IRIS 빅데이터 솔루션의 세계로 오신 여러분을 환영합니다.
 
 
 본 문서를 활용하여 사용자는 다음의 기능을 학습하고 적용할 수 있는 능력을 손쉽게 획득할 수 있습니다. 
+
+- Getting started 에서는 IRIS 로 사용자 데이터를 업로드 하는 방법을 설명합니다. 
+
+    - 데이터는 활용성이 풍부한 공공 데이터를 다운받아 사용합니다. 
+    - 다운받은 공공 데이터를 Amazon S3와 호환되는 클라우스 스토리지 서비스인 MinIO 에 업로드하는 방법을 설명합니다. 
 
 - IRIS Analyzer 기능을 활용하여 빅데이터의 원하는 부위에 손쉽게 접근, 단일 조건 및 여러 조건을 만족하는 데이터를 검색, 처리할 수 있습니다.
 
