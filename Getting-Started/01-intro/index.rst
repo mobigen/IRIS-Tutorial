@@ -45,18 +45,13 @@ IRIS 에서 제공하는 기본 Object 저장소로 해당 데이터 파일을 �
 
 **데이터 모델** 메뉴를 클릭하여 새모델을 만들어 봅니다.
 
-모델 이름을 정한 후, 
-
-연결정보로 OBJECTSTORAGE 와 default-minio 로 선택하고, 브라우저에서 업로드한 파일이름을 찾아서 클릭합니다.
-
+모델 이름을 정한 후, 연결정보로 OBJECTSTORAGE 와 default-minio 로 선택하고, 브라우저에서 업로드한 파일이름을 찾아서 클릭합니다.
 선택한 파일 내용이 샘플로 10개 만 로딩되어 보여집니다.
 
 MinIO 에 저장된 각 컬럼의 유형은 TEXT 로 저장되므로, 데이터모델에서 컬럼별 유헝을 변경해야 합니다.
-
 유형은 TEXT, REAL, INTEGER, BIGINT, DATE, TIMESTAMP 로 변환할 수 있습니다.
 
 또한 컬럼명이 영문이라 직관적이지 않으면, 한글 별칭을 추가로 입력할 수 있습니다.
-
 매뉴얼 `데이터 모델 생성 <http://docs.iris.tools/manual/IRIS-Manual/IRIS-WEB/inquiry_management/docs/00_data_model.html#id6>`__ 파트를 참조하세요.
 
 
