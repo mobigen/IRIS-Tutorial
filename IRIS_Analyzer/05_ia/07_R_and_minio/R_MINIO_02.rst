@@ -72,7 +72,7 @@ MINIO 에 저장된 R object load 하기 : s3load
 MINIO 에 저장된 npk.Rdata 파일을 확인합니다.
 
 .. image:: images/minio_file_01.png
-    :scale: 60%
+    :scale: 40%
     :alt: minio file 01
 
 |
