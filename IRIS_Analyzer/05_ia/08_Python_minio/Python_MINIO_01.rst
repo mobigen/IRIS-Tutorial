@@ -1,4 +1,4 @@
-Python 과 MINIO  : minio package
+Python 과 MINIO  : minio 라이브러리
 =============================================
 
 IRIS **대화형 분석** 에는 RStudio 와 함께 Jupyter Notebook 을 임베딩하여  Python 등을 쉽게 사용할 수 있는 환경을 제공하고 있습니다.
