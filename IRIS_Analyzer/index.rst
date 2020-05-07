@@ -2,7 +2,7 @@ IRIS Analyzer
 ====================
 
 IRIS의 Analyzer에 대한 기능을 설명합니다. 
-
+사용자는 Analyzer를 활용하여 데이터를 빠르게 탐색하고 시각화하며 기초적인 분석 작업을 수행할 수 있습니다. 
 
 .. toctree::
     :hidden:
