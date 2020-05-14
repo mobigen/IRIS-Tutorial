@@ -19,6 +19,7 @@ IRIS Studio는 다양한 데이터 시각화 결과를 웹 문서로 작성할 �
     single_value/single_value.rst
     treemap/treemap.rst
     wordcloud/wordcloud.rst
+    sankey/index.rst
     checkbox_report/checkbox_report.rst
     combobox_report/combobox_report.rst
     insert_image_report/insert_image_report.rst
