@@ -12,14 +12,15 @@ IRIS Studio는 다양한 데이터 시각화 결과를 웹 문서로 작성할 �
 .. toctree::
     :hidden:
 
-    table/table.rst
-    bar/bar.rst
-    barh/barh.rst
-    piechart/piechart.rst
-    single_value/single_value.rst
-    treemap/treemap.rst
-    wordcloud/wordcloud.rst
-    sankey/index.rst
-    checkbox_report/checkbox_report.rst
-    combobox_report/combobox_report.rst
-    insert_image_report/insert_image_report.rst
+    01_table/table.rst
+    02_bar/bar.rst
+    03_barh/barh.rst
+    04_piechart/piechart.rst
+    05_single_value/single_value.rst
+    06_treemap/treemap.rst
+    07_wordcloud/wordcloud.rst
+    08_sankey/index.rst
+    09_motion/index.rst
+    10_checkbox_report/checkbox_report.rst
+    11_combobox_report/combobox_report.rst
+    12_insert_image_report/insert_image_report.rst
