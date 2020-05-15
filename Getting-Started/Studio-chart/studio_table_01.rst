@@ -96,7 +96,7 @@ Studio예제_테이블_검색어_1(필터/where/sql case when)
 | FIRE_CAUSE(화재원인) 이 "방화"로 시작하는 데이터는 CAUSE_KIND = '방화'
 | 그 외는 CAUSE_KIND = FIRE_CAUSE ( 나머지 "자연적인_요인" )
 
-
+|
 
 .. image:: images/table_1_05.png
     :alt: table_1_05
