@@ -101,4 +101,3 @@ MINIO 의 object 를 로컬 path 에 파일로 다운로드
 
 .. image:: images/python_minio_03.png
    :alt: python minio 03 upload
-
