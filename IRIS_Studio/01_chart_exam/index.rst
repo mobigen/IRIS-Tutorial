@@ -2,11 +2,26 @@
 =========================================================================
 
 | IRIS Studio 의 챠트 메뉴에서 제공하는 다양한 기능을 활용해 보겠습니다. 
-| 차트-테이블 유형에 필터사용/WHERE 구문과 CASE ~ WHEN등의 보다 복잡한 기능을 사용한 예제에 대해 설명하고, 최종적으로 원하는 데이터  형태로 변환 후 adv 명령어를 활용하여 시각화 Sankey 차트를 그리는 과정을 단계별로 시연합니다. 
+| '기능 컴포넌트' 매뉴얼에서 각 컴포넌트별 활용법을 학습하였다면,
+| 이번 튜토리얼에서는 인터넷에서 수집할 수 있는 복잡한 형태의 실제 데이터를 대상으로 적용하여 데이터를 분석하고 그래프를 그리는 방법을 자세히 설명합니다.
+| 이를 통해 IRIS 사용자는 빅데이터를 분석/그래프를 그리고 결과를 활용하기 위한 방법을 습득할 수 있습니다. 
+
 
 .. toctree::
     :hidden:
 
-    studio_table_01.rst
-    studio_table_02.rst
-    studio_table_03.rst
+    01_studio_table_01.rst
+    02_studio_table_02.rst
+    03_studio_table_03.rst
+    04_studio_table_04.rst
+    05_studio_chart_line_01.rst
+    06_studio_chart_multi_axis.rst
+    07_studio_chart_bar_01.rst
+    08_studio_chart_bar_02.rst
+    09_studio_chart_pie.rst
+    10_studio_chart_ts.rst
+    11_studio_chart_heatmap.rst
+    12_studio_chart_number.rst
+    13_studio_chart_gauge.rst
+    14_studio_chart_treemap.rst
+    15_studio_wordcloud.rst

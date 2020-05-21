@@ -6,7 +6,7 @@ IRIS Studio를 선택하면 아래 그림과 같은 버튼들을 화면 상단�
 
 .. image:: ./button-all.png
 
-하위 메뉴에서 각 버튼별 기능을 자세히 설명합니다. 
+하위 메뉴에서 각 버튼별 기능에 대해 설명합니다. 
 
 .. toctree::
     :hidden:
