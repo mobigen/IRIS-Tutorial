@@ -21,4 +21,5 @@ IRIS Studio는 다양한 데이터 시각화 결과를 웹 문서로 작성할 �
 
     00_common/index.rst
     01_chart_exam/index.rst
+    02_map_exam/index.rst
 
