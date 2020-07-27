@@ -107,7 +107,7 @@ layer map
 - 시각화 탭
     - 시각화유형 옵션에서 라벨로 설정합니다.
 
-.. image:: ./images/studio_map_17_2.png.png
+.. image:: ./images/studio_map_17_2.png
     :alt: map tile 17_2
 
 
