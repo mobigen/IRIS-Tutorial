@@ -2,7 +2,7 @@
 MAP 2 : 이벤트변수로 지도 표현
 ================================================================================
 
-| 보고서 : **EDU_MAP_Tile_Seoul_FireCenter**
+| 보고서 : `EDU_MAP_Tile_Seoul_FireCenter <http://b-iris.mobigen.com:80/studio/exported/69e9c280245a4771b45e7328d8f9fcd047660cf8ff7240a6909d13fff5a84140>`__ 
 |
 | "MAP 2" 지도는 트리거 이벤트로 설정한 "MAP 1" 지도로부터 전달받은 이벤트변수에 따라 지도에 표시되는 위치와 내용이 달라집니다. 
 | "MAP 1" 의 소방서 포인트를 클릭하면 옆의 다른 지도 "MAP 2" 에서 해당 소방서를 중심으로 확대된 지도(zoom 레벨 14)로 표시되고, 해당 소방서와 주변의 119안전센터가 같이 표시됩니다.
@@ -119,4 +119,3 @@ layer map
 
 .. image:: ./images/studio_map_18_1.png
     :alt: map tile 18_1
-    

@@ -2,7 +2,8 @@
 MAP 1 : tile / 도형 / 마커
 ================================================================================
 
-| 보고서 : **EDU_MAP_Tile_Seoul_FireCenter**
+| 보고서 : `EDU_MAP_Tile_Seoul_FireCenter <http://b-iris.mobigen.com:80/studio/exported/69e9c280245a4771b45e7328d8f9fcd047660cf8ff7240a6909d13fff5a84140>`__ 
+| 
 |
 | 2018년 서울시 구별 화재건수 데이터와 소방서 위,경도 데이터를 3개의 레이어로 지도에 표시하는 보고서 예제입니다.
 | 
