@@ -56,10 +56,13 @@ layer map
 
 .. code::
   
-  * |  pylambda row :  [ int(  (1.0 - math.asinh(math.tan(math.radians(row[i])))  / math.pi) / 2.0 * ( 2.0 ** 14 ) )  if i == 6  else  
-                         int(   ( row[7] + 180.0 ) / 360.0 * (2.0 ** 14  )   ) if i == 7 else 
+  * |  pylambda row :  [ int(  (1.0 - math.asinh(math.tan(math.radians(row[i])))  / math.pi) / 2.0 * ( 2.0 ** 14 ) )  
+            if i == 6  else  
+                         int(   ( row[7] + 180.0 ) / 360.0 * (2.0 ** 14  )   ) 
+            if i == 7 else 
                          row[i]   for i in range(len(row))   ]  import math  
-    | rename _1 ID | rename _2 CODE | rename _3 BANG_CODE | rename _4 U_X | rename _5 U_Y | rename _6 F_NAME |  rename _8 경도_TILE | rename _7 위도_TILE 
+    | rename _1 ID | rename _2 CODE | rename _3 BANG_CODE | rename _4 U_X | rename _5 U_Y 
+    | rename _6 F_NAME |  rename _8 경도_TILE | rename _7 위도_TILE 
     | concat 경도_TILE, ",", 위도_TILE, ",14"   as TILE_CODE
 
 
@@ -77,7 +80,7 @@ layer map
     :alt: map tile 16_1
 
 | MAP 1 에서 전달받은 ${map_3.map_event_lat}, ${map_3.map_event_lng} 변수로 표시된 MAP 2 지도에서 
-| 레이어 소방서마커 를 추가합니다. 소방서위치를 지도의 시각화유형 중 **마커-깃발** 로 표시합니다.
+| 레이어 '소방서마커' 를 추가합니다. 소방서위치를 지도의 시각화유형 중 **마커-깃발** 로 표시합니다.
 
 
 - 레이어 이름 : 소방서마커

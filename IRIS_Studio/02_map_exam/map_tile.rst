@@ -108,7 +108,10 @@ layer map
 
 .. code::
 
-  * |  pylambda row :  [ int(  (1.0 - math.asinh(math.tan(math.radians(row[6])))  / math.pi) / 2.0 * ( 2.0 ** 12 ) )  if i == 6  else  int(   ( row[7] + 180.0 ) / 360.0 * (2.0 ** 12 )   ) if i == 7 else row[i]   for i in range(len(row))   ]  import math 
+  * |  pylambda row :  [ int(  (1.0 - math.asinh(math.tan(math.radians(row[6])))  / math.pi) / 2.0 * ( 2.0 ** 12 ) )  
+         if i == 6  else  
+                         int(   ( row[7] + 180.0 ) / 360.0 * (2.0 ** 12 )   ) 
+         if i == 7 else row[i]   for i in range(len(row))   ]  import math 
     | rename _8 경도 | rename _7 위도 |  rename _6 NAME 
     | concat 경도, ",", 위도, ",12"  as TILE_CODE
 
