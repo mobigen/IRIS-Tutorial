@@ -65,20 +65,25 @@
 
 .. image:: images/encoding_ansi.png
    :alt: 인코딩 ANSI
+   
 
+|
 
 1. csv 데이터를 인코딩 해주는 과정을 진행하기 위해서는 먼저 파일을 메모장으로 열어야 합니다.
 
 .. image:: images/encoding_utf_8_1.png
    :alt: 인코딩 UTF-8 변경
-
+   
+   
+|
 
 2. 데이터 파일을 메모장으로 열고, 다른 이름으로 저장하기를 클릭한 후 인코딩을 UTF-8로 바꿔줍니다.
 
 .. image:: images/encoding_utf_8_2.png
    :alt: 인코딩 UTF-8 변경
-
-
+   
+   
+|
 
 3. 위의 과정을 통해서 IRIS의 새 모델 만들기에서 정상적으로 글자가 나타나도록 할 수 있습니다.
 
