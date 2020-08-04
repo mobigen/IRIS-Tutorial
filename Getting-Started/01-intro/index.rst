@@ -56,8 +56,6 @@
    :alt: data model 검색
 
 
-
-
 | 
 
 데이터 업로드 전에 확장자 확인하기
@@ -88,6 +86,7 @@
    :alt: 인코딩 UTF-8 변경
 
 
+|
 
 
 데이터 모델 뷰 생성하기
@@ -100,8 +99,6 @@
 .. image:: images/getting_start_49.png
    :alt: data model 검색
 
-
-| 
 
 
 데이터 모델 뷰를 활용하면 좋은 점
