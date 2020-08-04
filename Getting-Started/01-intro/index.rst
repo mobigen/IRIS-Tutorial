@@ -91,7 +91,8 @@
 --------------------------------------------------------------------------------------
 
 | 데이터 모델 목록에 있는 데이터 모델에 대해 뷰(View) 를 생성할 수 있습니다.
-| 데이터 모델을 집계, 변환, 필터링 등 검색어로 전처리하여 데이터 모델 뷰로 생성하면 복잡한 검색어 구문과 설정값 없이 Studio 에서 데이터 모델처럼 사용할 수 있습니다. 
+| 데이터 모델을 집계, 변환, 필터링 등 검색어로 전처리하여 데이터 모델 뷰로 생성하거나
+| 다른 데이터 모델과 join 하여 모델 뷰를 생성하여 Studio, Analyzer 에서 데이터 모델처럼 사용할 수 있습니다. 
 
 .. image:: images/getting_start_49.png
    :alt: data model 검색
@@ -107,3 +108,28 @@
 
 .. image:: images/getting_start_50.png
    :alt: data model 검색
+
+
+
+예시 : 다른 데이터 모델과 join 하여 생성한 모델 뷰
+--------------------------------------------------------------------------------------
+
+| 대상 데이터 모델  : EDU_SEOUL_GU_FIRE_CAUSE
+
+
+| 검색어
+
+.. code::
+
+  * |  join LEFT_OUTER  EDU_SEOUL_GU_WGS84  EDU_SEOUL_GU_WGS84.GU_NAME = EDU_SEOUL_GU_FIRE_CAUSE.GU_NAME
+
+
+
+| 모델 뷰 생성  : EDU_SEOUL_GU_FIRE_CAUSE_행정구GEOM_VIEW
+
+.. image:: images/getting_start_19.png
+   :alt: data model  view 19
+
+
+.. image:: images/getting_start_20.png
+   :alt: data model view 20
