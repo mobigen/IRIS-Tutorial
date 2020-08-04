@@ -10,3 +10,4 @@
 
     map_tile.rst
     map_event.rst
+    map_tile.rst
