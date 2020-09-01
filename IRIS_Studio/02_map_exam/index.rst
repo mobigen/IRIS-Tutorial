@@ -11,3 +11,4 @@
     map_tile.rst
     map_event.rst
     map_mesh.rst 
+    map_marker_sequence.rst
