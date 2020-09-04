@@ -16,7 +16,7 @@
 
 
 .. image:: ./images/map_seq_16.png
-    :scale: 60%
+    :scale: 100%
     :alt: map seq 016
 
 
@@ -30,7 +30,7 @@
 
 
 .. image:: ./images/map_seq_08.png
-    :scale: 60%
+    :scale: 100%
     :alt: map seq 08
 
 
