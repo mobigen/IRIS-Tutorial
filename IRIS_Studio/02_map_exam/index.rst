@@ -12,3 +12,4 @@
     map_event.rst
     map_mesh.rst 
     map_marker_sequence.rst
+    map_item.rst
