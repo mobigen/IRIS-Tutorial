@@ -8,7 +8,7 @@
 * 예제 보고서 `EDU_예제_기간설정 <http://b-iris.mobigen.com:80/studio/exported/7613b6636c874259ba89b142a29bb4217357f13d9c4b465b86dc496620eddd61>`__
 
 
-* 보고서에서 설정한 ``기간 설정`` 객체의 시각화 옵션
+* 보고서에서 설정한 ``기간 설정`` 객체의 시각화 옵션과 화면 실행 결과
 
 .. image:: ./images/period_58.png
     :scale: 60%

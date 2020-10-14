@@ -25,3 +25,4 @@ IRIS Studio를 선택하면 아래 그림과 같은 버튼들을 화면 상단�
     12_insert_image_report/insert_image_report.rst
     13_textbox/textbox.rst
     14_period/period.rst
+    15_input_box/input_box.rst
