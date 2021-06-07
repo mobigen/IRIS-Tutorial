@@ -93,8 +93,8 @@
 
     
 
-.. image:: images/막대01.png
-    :alt: 막대01
+.. image:: images/bar01.png
+    :alt: bar01
 
 
 
