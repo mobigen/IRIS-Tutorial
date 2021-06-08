@@ -10,16 +10,54 @@
 ------------------------------
 
 
-| 데이터 모델 : SYSLOG_2020_0325_09
+| 데이터 모델 : EDU_SYSLOG_2020_0325_09
 | 기간 : 2020/03/25 09:00 ~ 10:00
-| 내용 : 서버(HOST) 에서 출력되는 SYSLOG 원시 데이터
+| 내용 : 서버(HOST) 에서 출력되는 SYSLOG 데이터
 
 
+.. list-table::
+   :header-rows: 1
 
-.. image:: images/chart_num_24.png
-    :scale: 70%
-    :alt: chart_num_24
-
+   * - DATETIME
+     - HOST
+     - FACILITY
+     - PRIORITY
+     - LEVEL
+     - LEVEL_INT
+     - TAG
+     - PROGRAM
+   * - 20200325090401
+     - tsdn-svr1
+     - cron
+     - info
+     - info
+     - 7
+     - 4e
+     - CROND
+   * - 20200325090401
+     - gcs1
+     - daemon
+     - info
+     - info
+     - 7
+     - 1e
+     - systemd
+   * - ...
+     - ...
+     - ...
+     - ...
+     - ...
+     - ...
+     - ...
+     - ...    
+   * - 20200325100424
+     - tsdn-svr1
+     - kern
+     - warning
+     - warning
+     - 5
+     - 04
+     - kernel
 
 
 
@@ -28,16 +66,12 @@
 -------------------------------------------
 
 
-.. image:: images/chart_heatmap_31.png
-    :scale: 60%
-    :alt: chart_heatmap_31
-
-| 코드
+- 검색어
 
 .. code::
 
-    * HOST='tsdn-svr1' | 
-    adv heatmap count(*) SPLITROW 'date_group("DATETIME", "1M")' SPLITCOL PROGRAM COLSIZE 500
+    * | where HOST='tsdn-svr1' 
+      | adv heatmap count(*) SPLITROW 'date_group("DATETIME", "1M")' SPLITCOL PROGRAM COLSIZE 500
 
 
 | 전체 SYSLOG 데이터에서 HOST='tsdn-svr1' 로 필터링한 후
@@ -48,7 +82,8 @@
 | cell 의 값에 따라 색상으로 시각화되어 표현됩니다.
 
 
-.. image:: images/chart_heatmap_32.png
-    :alt: chart_heatmap_32
+- 히트맵 챠트
 
+.. image:: images/hm01.png
+    :alt: hm01
 
