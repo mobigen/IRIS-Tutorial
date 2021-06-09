@@ -25,3 +25,4 @@
     13_studio_chart_gauge.rst
     14_studio_chart_treemap.rst
     15_studio_wordcloud.rst
+    16_studio_bi_directionalbar.rst
