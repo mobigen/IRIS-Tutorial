@@ -27,3 +27,4 @@
     15_studio_wordcloud.rst
     16_studio_bi_directionalbar.rst
     17_studio_bubble.rst
+    18_studio_boxplot.rst
