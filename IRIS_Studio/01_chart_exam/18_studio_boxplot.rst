@@ -4,7 +4,7 @@
 | 거품형 챠트는 X축, Y축, 거품의 크기로 데이터의 관계 및 변화를 표시한 챠트입니다.
 
 
-- 예제 보고서 : `EDU_Studio BubbleChart(거품형) <http://b-iris.mobigen.com:80/studio/exported/fd9d7d9ad5c64cf9ab86860a2b5ace9b01ee2347cf9a4e29b546f408aaac56dd>`__
+- 예제 보고서 : `EDU_Studio BoxPlot(상자그림) <http://b-iris.mobigen.com:80/studio/exported/e1d1fdb6b8e44db88349befebe72797b1ab13956f4de4c2daf0b58ad074c1713>`__
 
 
 데이터 모델
