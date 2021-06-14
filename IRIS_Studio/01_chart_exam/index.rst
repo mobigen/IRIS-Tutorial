@@ -28,3 +28,4 @@
     16_studio_bi_directionalbar.rst
     17_studio_bubble.rst
     18_studio_boxplot.rst
+    19_studio_areachart.rst
