@@ -4,7 +4,7 @@
 ===================================================================
 
 
-| ``IRIS Analizer >> 검색`` 메뉴에서 지원하는 Command 중 ``stats`` 를 이용하여 데이터의 기초 통계 분석을 진행하는 방법에 대한 설명입니다.
+| ``IRIS Analyzer >> 검색`` 메뉴에서 지원하는 Command 중 ``stats`` 를 이용하여 데이터의 기초 통계 분석을 진행하는 방법에 대한 설명입니다.
 | **stats** 명령어는 기초 통계 분석을 위한 여러 통계 함수들을 지원하고 있습니다. 
 
 | `stats manual 이동 <https://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/stats.html#stats>`__ 
