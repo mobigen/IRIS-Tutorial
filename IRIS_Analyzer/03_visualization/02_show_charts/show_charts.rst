@@ -12,6 +12,7 @@
     02_scattering/index.rst
     03_relational/index.rst
     04_anomaly/index.rst
+    06_Forecast/index.rst
     05_map/index.rst
     
 
