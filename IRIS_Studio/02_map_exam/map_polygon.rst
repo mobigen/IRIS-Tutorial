@@ -30,5 +30,5 @@
     - 투명도 조정하여 Base Map 이 약간 보이게 합니다.
     - 수치형 변수인 ID 의 크기에 따라 도형의 색상을 그라디언트로 표시합니다.
 
-.. image:: ./images/tt_map06.png
-    :alt: map 06
+.. image:: ./images/tt_map07.png
+    :alt: map 07
