@@ -7,7 +7,7 @@ MAP 3 : 행정구 중심 좌표 마커 표시
 | "MAP 1" 에서 지역을 선택하면 "MAP 2" 에서 지역명을 전달 받아 **마커(깃발)** 로 중심위치를 표시합니다.
 |
 
-.. image:: ./02_map_exam/images/m_map_01.PNG
+.. image:: ./images/m_map_01.PNG
 
 
 .. contents::
