@@ -11,6 +11,7 @@
     map_marker.rst
     map_polygon.rst
     map_circle.rst
+    map_label.rst
     map_tile.rst
     map_event.rst
     map_mesh.rst 
