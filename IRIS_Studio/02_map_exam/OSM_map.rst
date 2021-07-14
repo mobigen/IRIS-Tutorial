@@ -9,7 +9,7 @@ MAP 4 : 두 개 지도 이용해서 라벨 레이어로 이벤트 변수 표현
 | 
 
 
-.. image:: ./02_map_exam/images/OSMmap.PNG
+.. image:: ./images/OSMmap.PNG
     :alt: map event 1
 |     
 |     
@@ -30,10 +30,10 @@ MAP 4  :  변수 값 설정
 - "지도 1"에서 구 라벨을 선택시 라벨 레이어 변수에 변수 값들이 저장됩니다.
 - 이 변수들을 "지도 2"에 이벤트로 걸어주려면 아래 사진과 같이 값 필드를 모든 필드로 바꿔줘야합니다.
 
-.. image:: ./02_map_exam/images/OSM_map01.png
+.. image:: ./images/OSM_map01.png
     :alt: map event 2 
     
-.. image:: ./02_map_exam/images/OSM_map02.png
+.. image:: ./images/OSM_map02.png
     :alt: map event 3 
     
 
@@ -45,7 +45,7 @@ MAP 4  :  변수 값 설정
   "EDU_SEOUL_GU_WGS84"의 경우 행정구 영역을 그리기 위해 위도, 경도 등의 좌표 값이 있는 데이터 모델입니다.
 - 레이어 Base map에 있는 변수 값 설정의 경우에도 "지도 1"에서 행정구 클릭시 원하는 좌표와 원하는 줌 레벨로 이동하게끔 변수를 설정해줍니다.
 
-.. image:: ./02_map_exam/images/OSM_map03.png
+.. image:: ./images/OSM_map03.png
     :alt: map event 4 
 
 ------------------------------------------------------------------------------------------------------
@@ -58,7 +58,7 @@ MAP 4  :  트리거 설정
 - "지도 2"에 이벤트를 발생시킬 수 있도록 바로 실행이 되게 자동 실행을 체크해줍니다.
  
 
-.. image:: ./02_map_exam/images/OSM_map05.png
+.. image:: ./images/OSM_map05.png
     :alt: map event 6
     
     
@@ -72,7 +72,7 @@ MAP 4  :  트리거 설정
   2) "지도 1"의 행정구를 클릭 시 실행 되야 하기 때문에 자동실행은 선택하지 않음.
  
 
-.. image:: ./02_map_exam/images/OSM_map04.png
+.. image:: ./images/OSM_map04.png
     :alt: map event 5
     
 
