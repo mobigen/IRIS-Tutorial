@@ -6,7 +6,7 @@
 | 입력 유형은 ``text`` , ``password`` , ``number`` 가 있습니다.
 |
 
-* 예제 보고서 : `EDU_(1)텍스트입력 <http://b-iris.mobigen.com:80/studio/exported/d209d1eef85149bcb70b0ffa1fa8da27b5845f500aa0453c8bfc245bd1259ad2>`__
+* 예제 보고서 : `EDU_(1)텍스트입력 <http://b-iris.mobigen.com:80/studio/exported/c759ae4b953b4fedaa3a79c940d9cc2f0968b35f35fd48379a2a11ea7282228e>`__
 |
 .. image:: ./images/input_box_01.png
 - 입력 전
