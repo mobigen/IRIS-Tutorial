@@ -1,4 +1,4 @@
-지도의 시각화유형 활용 예제
+지도의 시각화유형별 예제
 =========================================================================
 
 | IRIS Studio 의 지도의 시각화유형은 마커, Tile, Mesh, 도형, 라벨 이 있습니다.
@@ -8,6 +8,9 @@
 .. toctree::
     :hidden:
 
+    map_marker.rst
+    map_polygon.rst
+    map_circle.rst
     map_tile.rst
     map_event.rst
     map_mesh.rst 
