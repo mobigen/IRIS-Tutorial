@@ -22,7 +22,7 @@ MAP 3 :  Layer 설정
 Base Map 
 '''''''''''''''''''''''''''''''''''''''''
 
-.. image:: ./02_map_exam/images/map_mo_03.png
+.. image:: ./images/map_mo_03.png
 
 
 | MAP 2 에 위,경도 좌표를 ${common_data_1.results[0][1]} / ${common_data_1.results[0][2]} 합니다.
@@ -35,7 +35,7 @@ Base Map
 MAP 1 : Layer
 '''''''''''''''''''''''''''''''''''''''''
 
-.. image:: ./02_map_exam/images/map_mo_01.png
+.. image:: ./images/map_mo_01.png
 
 
 | MAP 1 에서 각 레이어가 타나내는 시각화 유형
@@ -43,7 +43,7 @@ MAP 1 : Layer
 |
 - 레이어 이름 : 행정구
 
-.. image:: ./02_map_exam/images/map_mo_04.png
+.. image:: ./images/map_mo_04.png
 | 자동 실행을 설정합니다.
 
 
@@ -51,7 +51,7 @@ MAP 1 : Layer
 common_data_1 : 데이터 객체
 '''''''''''''''''''''''''''''''''''''''''
 
-.. image:: ./02_map_exam/images/m_map_05.png
+.. image:: ./images/m_map_05.png
 
 | map_3에 트리거를 설정하고 지도에 선택한 지역명의 값을 받아 해당 지역의 중심 좌표를 결과값으로 나타냅니다.
 |
@@ -73,19 +73,19 @@ common_data_1 : 데이터 객체
 MAP 2 : Layer
 '''''''''''''''''''''''''''''''''''''''''
 
-.. image:: ./02_map_exam/images/map_mo_02.png
+.. image:: ./images/map_mo_02.png
 
 
 | MAP 2 에서 각 레이어가 타나내는 시각화 유형
 |
 |
 - 레이어 이름 : 구역
-.. image:: ./02_map_exam/images/map_mo_05.png
+.. image:: ./images/map_mo_05.png
 | common_data_1 에 트리거를 설정합니다.
 |
 |
 - 레이어 이름 : 중심위치
-.. image:: ./02_map_exam/images/map_mo_06.png
+.. image:: ./images/map_mo_06.png
 
 | common_data_1 에 트리거를 설정합니다.
 | 시각화 옵션에서 마커 종류를 **깃발** 로 설정합니다.
