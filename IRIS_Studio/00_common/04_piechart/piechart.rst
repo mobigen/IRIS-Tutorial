@@ -42,7 +42,7 @@
 
 .. image:: ./images/pie_01.PNG
     :alt: 시각화원형
-    :scale: 90%
+    :scale: 50%
     
     
 시각화 옵션
