@@ -8,7 +8,6 @@
 * 예제 보고서 : `템플릿_EDU_콤보박스_필터링 <http://b-iris.mobigen.com:80/studio/exported/f80e45fbc3ac45f6b66dfb492e1506ed709f1c12e62c473788567fe595de31f8>`__
 
 .. figure:: ./images/ko/combo_01.png
-|
 --------------------------------------------------
 common_data_1
 --------------------------------------------------
@@ -27,5 +26,8 @@ common_data_1
 | common_data_1 을 실행한 후 속성 탭에서 **나타낼 값** 과 **전달할 값** 을 선택합니다.
 |
 .. figure:: ./images/ko/combo_02.png
-
+        :scale: 40
+|
 - 활용
+.. figure:: ./images/ko/combo_03.png
+| 위 활용 예제와 같이 ${콤보박스 변수명}을 사용하여 where절로 필터링한 값을 나타낼 수 있습니다.
