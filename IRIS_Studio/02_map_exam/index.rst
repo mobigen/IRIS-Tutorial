@@ -14,6 +14,7 @@
     map_label.rst
     map_heatmap.rst
     map_tile_new.rst
+    map_mesh_new.rst
     map_tile.rst
     map_event.rst
     map_event_marker.rst
