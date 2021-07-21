@@ -19,4 +19,4 @@
 | ``이미지 객체`` 선택 > [속성] 툴팁 설정 > 사용 체크 > 내용 입력
 |
 .. figure:: ./images/ko/image_02.png
-      :scale: 50
+      :scale: 60
