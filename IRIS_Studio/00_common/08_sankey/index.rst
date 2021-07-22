@@ -30,8 +30,7 @@ Sankey 차트 영역 생성
 시각화 옵션 설정
 -------------------------------------------------------------------
 - 원하는 테이블로 나왔는지 확인한 후 우측 "시각화" 탭에서 시각화 유형을 sankey로 선택해줍니다.
-- 다른 차트들과 달리 차트 화면을 우클릭 하여 차트에 맞게 시각화 옵션으로 조절할 수 없고 adv라는 명령어를 써서 그려줍니다.
-| 참고 (`adv <http://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/adv.html>`_ 명령어의 자세한 활용법은 링크를 참조하세요)
+- 다른 차트들과 달리 차트 화면을 우클릭 하여 차트에 맞게 시각화 옵션으로 조절할 수 없고 `adv <http://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/adv.html>`_ 라는 명령어를 써서 그려줍니다.
 
 .. image:: ./images/sankey_02.png
     :alt: 시각화sankey
