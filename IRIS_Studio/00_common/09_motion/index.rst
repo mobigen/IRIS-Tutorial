@@ -28,9 +28,17 @@
 - ``Stop`` : 중단
 
 **데이터 타입**
-- TEXT : 문자열
-- INTEGER : 정수형 
-- BIGINT : INTEGER의 최대치 보다 더 큰 정수형
-- TIMESTAMP : 시간을 기록하는 문자열
 
+- ``TEXT`` : 문자열
+- ``INTEGER`` : 정수형 
+- ``BIGINT`` : INTEGER의 최대치 보다 더 큰 정수형
+- ``TIMESTAMP`` : 시간을 기록하는 문자열
+|
 - TIMESTAMP 설정 방법
+.. image:: ./images/motion_02.png 
+    :scale: 50
+1) TIMESTAMP 타입을 선택합니다.
+2) 분류 > 시간 에서 year를 선택합니다.
+3) 기타에 데이터와 같은 포맷을 설정합니다. ex) 데이터 : 2021-07-22 17:27:00 기타 설정 : YYYY-MM-DD HH:mm:ss
+
+| 주의 : 기타에 반드시 같은 포맷으로 설정해야 오류가 발생하지 않습니다.
