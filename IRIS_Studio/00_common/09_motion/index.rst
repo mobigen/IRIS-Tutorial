@@ -8,17 +8,17 @@
 * 예제 보고서 : `템플릿_EDU_Studio motion chart_데이터객체버전 <http://b-iris.mobigen.com:80/studio/exported/b6e894d803044270b2d4a0ddcab23ca0ba8cff7e510d41a9bbe3eeb716508ef5>`__
 |
 
-.. image:: ./images/motion_01.png
+.. image:: ./images/motion_01.png 
 
 ---------------------------------------------------
 차트 
 ---------------------------------------------------
 **데이터**
 
-- ``시간`` : 시간 흐름을 나타낼 수 있는 데이터를 사용합니다.     [Type : Timestamp]
-- ``x축, y축`` : 숫자로 이루어진 데이터를 사용합니다.            [Type : integer/real/Bigint]
-- ``그룹`` : 그룹으로 묶을 수 있는 데이터를 사용합니다.            [Type : Text]
-- ``크기`` : 각 그룹의 크기를 나타낼 수 있는 데이터를 사용합니다. [Type : integer/real/Bigint]
+- ``시간`` : 시간 흐름을 나타낼 수 있는 데이터를 사용합니다.	[Data Type : TIMESTAMP]
+- ``x축, y축`` : 숫자로 이루어진 데이터를 사용합니다.		[Data Type : INTEGER/REAL/BIGINT]
+- ``그룹`` : 그룹으로 묶을 수 있는 데이터를 사용합니다.		[Data Type : TEXT]
+- ``크기`` : 각 그룹의 크기를 나타낼 수 있는 데이터를 사용합니다. 	[Data Type : INTEGER/REAL/BIGINT]
 
 **객체**
 
@@ -26,3 +26,11 @@
 - ``Pause`` : 일시정지
 - ``Resume`` : 다시 재생
 - ``Stop`` : 중단
+
+**데이터 타입**
+- TEXT : 문자열
+- INTEGER : 정수형 
+- BIGINT : INTEGER의 최대치 보다 더 큰 정수형
+- TIMESTAMP : 시간을 기록하는 문자열
+
+- TIMESTAMP 설정 방법
