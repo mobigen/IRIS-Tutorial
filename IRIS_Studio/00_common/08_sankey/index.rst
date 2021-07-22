@@ -1,8 +1,8 @@
 ==================================================
 Sankey 차트
 ==================================================
-| 참고 보고서 : `템플릿_EDU_Studio sankey chart_데이터객체버전 <http://b-iris.mobigen.com:80/studio/exported/fa93fe5aee674a6ca0d047c65b0fee5045f6958070e94c91913a09ef1011c4e8>`__ 
-| 
+| 참고 보고서 : 
+| `템플릿_EDU_Studio sankey chart_데이터객체버전 <http://b-iris.mobigen.com:80/studio/exported/fa93fe5aee674a6ca0d047c65b0fee5045f6958070e94c91913a09ef1011c4e8>`__ 
 | Sankey 차트를 활용하여 각 변수간의 데이터의 흐름을 나타내는 관계형 그래프를 그릴 수 있습니다. 그래프의 연결선 굵기는 데이터의 양을 표현합니다. 
 | 
 ---------------------------------
@@ -29,13 +29,12 @@ Sankey 차트 영역 생성
 -------------------------------------------------------------------
 시각화 옵션 설정
 -------------------------------------------------------------------
-- 우측 "시각화" 탭에서 시각화 유형을 sankey로 선택해줍니다.
-- 다른 차트들과 달리 차트 화면을 우클릭 하여 차트에 맞게 시각화 옵션으로 조절할 수 없고 adv라는 명령어를 써서 그려줍니다.
-| 참고 (`adv <http://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/adv.html>`_ 명령어의 자세한 활용법은 링크를 참조하세요)
+- 원하는 테이블로 나왔는지 확인한 후 우측 "시각화" 탭에서 시각화 유형을 sankey로 선택해줍니다.
+- 다른 차트들과 달리 차트 화면을 우클릭 하여 차트에 맞게 시각화 옵션으로 조절할 수 없고 `adv <http://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/adv.html>`_ 라는 명령어를 써서 그려줍니다.
 
 .. image:: ./images/sankey_02.png
     :alt: 시각화sankey
-    :scale: 40%
+    :scale: 90%
    
 | 
 -------------------------------------------------------------------
