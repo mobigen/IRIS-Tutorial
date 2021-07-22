@@ -104,7 +104,7 @@
 .. image:: ./images/pie_07.png
     :alt: 원형 시각화 결과 확인
 | 
-- 또한 아래와 같이 `sort <https://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/sort.html?highlight=sort>`__ 를 이용해서 정렬 방법대로 원형차트 모양을 바꿀 수 있습니다.
+- 또한 아래와 같이 `sort <https://docs.iris.tools/manual/IRIS-Manual/IRIS-Discovery-Middleware/command/commands/sort.html?highlight=sort>`__ 를 이용해서 정렬 방법대로 원형차트 조각 크기 순서를 시계 방향을 기준으로 바꿀 수 있습니다.
 
 .. image:: ./images/pie_09.png
     :alt: 원형 시각화 결과 확인
