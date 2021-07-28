@@ -8,7 +8,7 @@
 * 예제 보고서 `템플릿_EDU_텍스트상자 <http://b-iris.mobigen.com:80/studio/exported/dfdfca2c243244cdb83f3488913a44e221c0b47f9e4a43389d8e4fce1b6c6cf6>`__
 |
 
-.. image:: ./images/textarea_01.png
+.. image:: ./images/textbox_01.png
 - 입력
 | ``텍스트 상자`` 객체에 입력한 값을 ${변수명}을 통해 다른 객체에서 사용할 수 있습니다.
 |
@@ -18,7 +18,7 @@
 --------------------------------------
 텍스트 상자 객체 > 속성
 --------------------------------------
-.. image:: ./images/textarea_02.PNG
+.. image:: ./images/textbox_02.PNG
 |
 - 기본값 : 텍스트 상자 객체의 초기값을 설정할 수 있습니다.
 - 안내 문구 : 안내할 문구를 입력하면 옅은 색 문자로 텍스트 입력 객체에 나타납니다.
