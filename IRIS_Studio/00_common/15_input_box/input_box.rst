@@ -5,9 +5,6 @@
 | 텍스트 입력(input box) 객체는 Input Box에 사용자가 입력한 값이나 외부로부터 값을 받아 화면에 보여 줍니다.
 | 입력 유형은 ``text`` , ``password`` , ``number`` 가 있습니다.
 |
-
-* 예제 보고서 : `EDU_(1)텍스트입력 <http://b-iris.mobigen.com:80/studio/exported/c759ae4b953b4fedaa3a79c940d9cc2f0968b35f35fd48379a2a11ea7282228e>`__
-|
 .. image:: ./images/input_box_01.png
 - 입력 전
 | **속성 > 디폴트 값 선택**
@@ -31,4 +28,3 @@
 |
 - 활용
 | 텍스트 입력은 회원 가입 화면처럼 이름, 비밀번호, 전화 번호 등을 입력하는 input box 생성에 많이 사용됩니다.
-

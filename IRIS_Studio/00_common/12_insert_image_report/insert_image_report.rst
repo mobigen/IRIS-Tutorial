@@ -2,8 +2,6 @@
 이미지 넣기
 ==================================================
 |
-* 예제 보고서 : `EDU_이미지_객체 <http://b-iris.mobigen.com:80/studio/exported/8e5804ad7f574940907151f68c9e6a674e5acfac14434c98b8a319bfe8ac14dc>`__
-|
 
 .. figure:: ./images/ko/image_01.png
 |

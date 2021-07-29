@@ -5,9 +5,6 @@
 | 모션차트는 시간에 따른 데이터를 X축으로 구성하고 해당 값을 Y축으로 구성하여 시간의 흐름에 따라 데이터 양의 변화를 버블의 크기로 나타내는 차트입니다. 
 |
 
-* 예제 보고서 : `템플릿_EDU_Studio motion chart_데이터객체버전 <http://b-iris.mobigen.com:80/studio/exported/b6e894d803044270b2d4a0ddcab23ca0ba8cff7e510d41a9bbe3eeb716508ef5>`__
-|
-
 .. image:: ./images/motion_01.png 
 
 ---------------------------------------------------
@@ -16,9 +13,9 @@
 **데이터**
 
 - ``시간`` : 시간 흐름을 나타낼 수 있는 데이터를 사용합니다.	[Data Type : TIMESTAMP]
-- ``x축, y축`` : 숫자로 이루어진 데이터를 사용합니다.		[Data Type : INTEGER/REAL/BIGINT]
-- ``그룹`` : 그룹으로 묶을 수 있는 데이터를 사용합니다.		[Data Type : TEXT]
-- ``크기`` : 각 그룹의 크기를 나타낼 수 있는 데이터를 사용합니다. 	[Data Type : INTEGER/REAL/BIGINT]
+- ``x축, y축`` : 숫자로 이루어진 데이터를 사용합니다.		    [Data Type : INTEGER/REAL/BIGINT]
+- ``그룹`` : 그룹으로 묶을 수 있는 데이터를 사용합니다.		    [Data Type : TEXT]
+- ``크기`` : 버블의 크기를 나타낼 수 있는 데이터를 사용합니다. 	[Data Type : INTEGER/REAL/BIGINT]
 
 **객체**
 
@@ -34,7 +31,7 @@
 - ``BIGINT`` : INTEGER의 최대치 보다 더 큰 정수형
 - ``TIMESTAMP`` : 시간을 기록하는 문자열
 |
-- TIMESTAMP 설정 방법
+- 데이터 모델에서 TIMESTAMP Type 설정 방법
 .. image:: ./images/motion_02.png 
     :scale: 50
 1) TIMESTAMP 타입을 선택합니다.
